@@ -36,67 +36,90 @@ export default function ProductsPage() {
     ? category === "ayurvedic"
       ? "Ayurvedic & Herbal Products"
       : category === "medical-devices"
-      ? "Medical Devices & Other Products"
-      : category === "test-card"
-      ? "Test Cards And Test Strips"
-      : category === "surgical"
-      ? "Surgical Products"
-      : category === "antibiotics"
-      ? "Antibiotics"
-      : category === "antidiabetic"
-      ? "Anti Diabetic"
-      : category === "cardiovascular"
-      ? "Cardio Vascular"
-      : category === "analgesics"
-      ? "Analgesics"
-      : category === "eye-ear-and-nasal-drops"
-      ? "Eye/Ear & Nasal Drops"
-      : category === "injectable-antibiotic"
-      ? "Injectable (Antibiotic)"
-      : category === "injectable"
-      ? "Injectable"
-      : category === "tablets"
-      ? "Tablets"
-      : category === "antacid"
-      ? "Antacid"
-      : category === "antimalarial"
-      ? "Antimalarial"
-      : category === "liquid-dry-syp"
-      ? "Liquid/Dry Syp"
-      : category === "ointment"
-      ? "Ointment"
-      : category === "oncology-capsules"
-      ? "Oncology Capsules"
-      : category === "oncology-injections"
-      ? "Oncology Injections"
-      : category === "veterinary-bolus"
-      ? "Veterinary Bolus"
-      : category === "veterinary-injection"
-      ? "Veterinary Injection"
-      : category === "veterinary-liquid"
-      ? "Veterinary Liquid"
-      : category === "veterinary-powder"
-      ? "Veterinary Powder"
-      : category === "veterinary-tablet"
-      ? "Veterinary Tablet"
-      : "All Products"
+        ? "Medical Devices & Other Products"
+        : category === "test-card"
+          ? "Test Cards And Test Strips"
+          : category === "surgical"
+            ? "Surgical Products"
+            : category === "antibiotics"
+              ? "Antibiotics"
+              : category === "antidiabetic"
+                ? "Anti Diabetic"
+                : category === "cardiovascular"
+                  ? "Cardio Vascular"
+                  : category === "analgesics"
+                    ? "Analgesics"
+                    : category === "eye-ear-and-nasal-drops"
+                      ? "Eye/Ear & Nasal Drops"
+                      : category === "injectable-antibiotic"
+                        ? "Injectable (Antibiotic)"
+                        : category === "injectable"
+                          ? "Injectable"
+                          : category === "tablets"
+                            ? "Tablets"
+                            : category === "antacid"
+                              ? "Antacid"
+                              : category === "antimalarial"
+                                ? "Antimalarial"
+                                : category === "liquid-dry-syp"
+                                  ? "Liquid/Dry Syp"
+                                  : category === "ointment"
+                                    ? "Ointment"
+                                    : category === "oncology-capsules"
+                                      ? "Oncology Capsules"
+                                      : category === "oncology-injections"
+                                        ? "Oncology Injections"
+                                        : category === "veterinary-bolus"
+                                          ? "Veterinary Bolus"
+                                          : category === "veterinary-injection"
+                                            ? "Veterinary Injection"
+                                            : category === "veterinary-liquid"
+                                              ? "Veterinary Liquid"
+                                              : category === "veterinary-powder"
+                                                ? "Veterinary Powder"
+                                                : category ===
+                                                    "veterinary-tablet"
+                                                  ? "Veterinary Tablet"
+                                                  : "All Products"
     : "All Products";
 
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section className="py-16 px-4 bg-[#e7ebee]">
       {/* Title */}
-      <div className="max-w-6xl mx-auto text-center mb-8">
-        <h2 className="text-3xl font-bold mb-2">{title}</h2>
-        <Divider />
+
+      <div className="relative max-w-6xl mx-auto text-center mb-8">
+        {/* Left decorative image */}
+        <img
+          src="/bg-1.webp"
+          alt=""
+          aria-hidden="true"
+          className="hidden lg:block absolute -top-7 left-64 w-24 h-auto z-0 pointer-events-none"
+        />
+
+        {/* Heading */}
+        <h2 className="relative z-10 text-3xl font-bold mb-2">{title}</h2>
+
+        {/* Right decorative image */}
+        <img
+          src="/bg-2.webp"
+          alt=""
+          aria-hidden="true"
+          className="hidden lg:block absolute -top-7 right-60 w-24 h-auto z-0 pointer-events-none"
+        />
+
+        {/* Divider */}
+        <div className="relative z-10">
+          <Divider />
+        </div>
       </div>
 
       {/* Products Grid */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="relative max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {currentProducts.length > 0 ? (
           currentProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
+              className="bg-white rounded-b-[30px] overflow-hidden shadow-white shadow-sm transition-all duration-500 hover:-translate-y-2"
             >
               {/* Product Image */}
               <div className="relative w-full h-[200px]">
@@ -104,50 +127,61 @@ export default function ProductsPage() {
                   src={product.images[0]}
                   alt={product.title}
                   fill
-                  className="object-content"
+                  className="object-content p-2"
                 />
               </div>
 
               {/* Product Info */}
-              <div className="p-4 flex flex-col justify-between h-60">
+              <div className="p-4 flex flex-col justify-between h-56 pb-5">
                 <div>
-                  <p className="text-sm text-[#B3CB02] mb-4">
+                  <p className="text-sm text-[#B3CB02] font-semibold mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "medical-devices"
-                      ? "Medical Devices & Other Products"
-                      : product.category === "surgical"
-                      ? "Surgical Products"
-                      : product.category === "test-card"
-                      ? "Test Cards And Test Strips"
-                      : product.category === "eye-ear-and-nasal-drops"
-                      ? "Eye/Ear & Nasal Drops"
-                      : product.category === "injectable-antibiotic"
-                      ? "Injectable (Antibiotic)"
-                      : product.category === "tablets"
-                      ? "Tablets"
-                      : product.category === "antacid"
-                      ? "Antacid"
-                      : product.category === "antimalarial"
-                      ? "Antimalarial"
-                      : product.category === "liquid-dry-syp"
-                      ? "Liquid/Dry Syp"
-                      : product.category === "oncology-capsules"
-                      ? "Oncology Capsules"
-                      : product.category === "oncology-injections"
-                      ? "Oncology Injections"
-                      : product.category === "veterinary-bolus"
-                      ? "Veterinary Bolus"
-                      : product.category === "veterinary-injection"
-                      ? "Veterinary Injection"
-                      : product.category === "veterinary-liquid"
-                      ? "Veterinary Liquid"
-                      : product.category === "veterinary-powder"
-                      ? "Veterinary Powder"
-                      : product.category === "veterinary-tablet"
-                      ? "Veterinary Tablet"
-                      : product.category.charAt(0).toUpperCase() +
-                        product.category.slice(1)}
+                        ? "Medical Devices & Other Products"
+                        : product.category === "surgical"
+                          ? "Surgical Products"
+                          : product.category === "test-card"
+                            ? "Test Cards And Test Strips"
+                            : product.category === "eye-ear-and-nasal-drops"
+                              ? "Eye/Ear & Nasal Drops"
+                              : product.category === "injectable-antibiotic"
+                                ? "Injectable (Antibiotic)"
+                                : product.category === "tablets"
+                                  ? "Tablets"
+                                  : product.category === "antacid"
+                                    ? "Antacid"
+                                    : product.category === "antimalarial"
+                                      ? "Antimalarial"
+                                      : product.category === "liquid-dry-syp"
+                                        ? "Liquid/Dry Syp"
+                                        : product.category ===
+                                            "oncology-capsules"
+                                          ? "Oncology Capsules"
+                                          : product.category ===
+                                              "oncology-injections"
+                                            ? "Oncology Injections"
+                                            : product.category ===
+                                                "veterinary-bolus"
+                                              ? "Veterinary Bolus"
+                                              : product.category ===
+                                                  "veterinary-injection"
+                                                ? "Veterinary Injection"
+                                                : product.category ===
+                                                    "veterinary-liquid"
+                                                  ? "Veterinary Liquid"
+                                                  : product.category ===
+                                                      "veterinary-powder"
+                                                    ? "Veterinary Powder"
+                                                    : product.category ===
+                                                        "veterinary-tablet"
+                                                      ? "Veterinary Tablet"
+                                                      : product.category
+                                                          .charAt(0)
+                                                          .toUpperCase() +
+                                                        product.category.slice(
+                                                          1,
+                                                        )}
                   </p>
 
                   <h3 className="text-xl font-semibold mb-2">
@@ -161,12 +195,14 @@ export default function ProductsPage() {
                 </div>
 
                 {/* View Product Button */}
-                <Link
-                  href={`/products/${product.category}/${product.slug}`}
-                  className="mt-4 inline-block px-4 py-2 bg-[#009136] text-white rounded hover:bg-[#B3CB02] transition text-center"
-                >
-                  View Product
-                </Link>
+                <div className="flex justify-center">
+                  <Link
+                    href={`/products/${product.category}/${product.slug}`}
+                    className="inline-block w-[50%] px-4 py-2 bg-[#009136] text-white rounded-full hover:bg-[#B3CB02] transition text-center"
+                  >
+                    View Product
+                  </Link>
+                </div>
               </div>
             </div>
           ))

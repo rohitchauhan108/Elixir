@@ -22,12 +22,37 @@ export default function Accredition() {
       {/* Content */}
       <div className="relative z-10">
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#111827] mb-2">
+        {/* <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#111827] mb-2">
           Accreditations
-        </h2>
+        </h2> */}
 
         {/* Divider */}
-        <Divider />
+        {/* <Divider /> */}
+        <div className="relative max-w-6xl mx-auto text-center mb-8">
+        {/* Left decorative image */}
+        <img
+          src="/bg-1.webp"
+          alt=""
+          aria-hidden="true"
+          className="hidden lg:block absolute -top-7 left-64 w-24 h-auto z-0 pointer-events-none"
+        />
+
+        {/* Heading */}
+        <h2 className="relative z-10 text-3xl font-bold mb-2">Accreditations</h2>
+
+        {/* Right decorative image */}
+        <img
+          src="/bg-2.webp"
+          alt=""
+          aria-hidden="true"
+          className="hidden lg:block absolute -top-7 right-60 w-24 h-auto z-0 pointer-events-none"
+        />
+
+        {/* Divider */}
+        <div className="relative z-10">
+          <Divider />
+        </div>
+      </div>
 
         {/* Cards Grid */}
         <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 mt-8 sm:mt-10 px-4">
