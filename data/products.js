@@ -256,7 +256,7 @@ export const products = [
     category: "medical-devices",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/medical-products/wheel-chairs.webp"],
     price: 39.99,
   },
   {
@@ -1019,7 +1019,7 @@ export const products = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/crepe-bandage.webp"],
+    images: ["/surgical-products/crepe-bandage-2.webp"],
     price: 39.99,
   },
   {
@@ -1189,7 +1189,7 @@ export const products = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/cotton-roll.webp"],
     price: 39.99,
   },
   {
@@ -1199,7 +1199,7 @@ export const products = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/cotton-roll.webp"],
     price: 39.99,
   },
   {
@@ -1209,7 +1209,7 @@ export const products = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/cotton-roll.webp"],
     price: 39.99,
   },
   {
