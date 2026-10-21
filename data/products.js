@@ -1307,7 +1307,7 @@ export const products = [
     category: "antibiotics",
     description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
     ingredient: "Each film coated tablet contains: Cefixime Trihydrate	BP",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/8.webp"],
     price: 39.99,
   },
   {
@@ -1317,7 +1317,7 @@ export const products = [
     category: "antibiotics",
     description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
     ingredient: "Each film coated tablet contains: Cefixime Trihydrate	BP",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/4.webp"],
     price: 39.99,
   },
   {
@@ -1337,7 +1337,7 @@ export const products = [
     category: "antibiotics",
     description: "3x10  ALU-ALU +INSERT  ",
     ingredient: "Each uncoated tablet contains:Levofloxacin Hemihyderate BP",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/9.webp"],
     price: 39.99,
   },
   {
@@ -1348,7 +1348,7 @@ export const products = [
     description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
     ingredient:
       "Each film coated tablet contains: Amoxycillin Trihydrate	BP,Potassium Calvulanic Acid	BP",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/1.webp"],
     price: 39.99,
   },
   {
@@ -1359,7 +1359,7 @@ export const products = [
     description: "2X7 ALU-ALU + WITH OUTER + INSERT  (2X7 MONO POUCH PACK)",
     ingredient:
       "Each film coated tablet contains:Amoxycillin Trihydrate BP 875 mg, Potassium  Calvulanic Acid125mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/5.webp"],
     price: 39.99,
   },
   {
@@ -1370,7 +1370,7 @@ export const products = [
     description: "10X10 BLISTER + INSERT",
     ingredient:
       "Each hard gelatin capsule contains:Amoxicillin Trihydrate BP, Eq to amoxicillin 500 mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/2.webp"],
     price: 39.99,
   },
   {
@@ -1381,7 +1381,7 @@ export const products = [
     description: "3X10 BLISTER MONO + INSERT",
     ingredient:
       "Each film coated tablet contains: Azithromycin Dihydrate	BP,Eq. ccccto Anhydrous Azithromycin",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/6.webp"],
     price: 39.99,
   },
   {
@@ -1391,7 +1391,7 @@ export const products = [
     category: "antibiotics",
     description: "10X10 BLISTER + INSERT",
     ingredient: "Each film coated tablet contains: Ciprofloxacin HCL BP",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/3.webp"],
     price: 39.99,
   },
   {
@@ -1411,7 +1411,7 @@ export const products = [
     category: "antibiotics",
     description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
     ingredient: "Each tablet contains:Cefuroxime Axetil	BP",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/7.webp"],
     price: 39.99,
   },
   {
@@ -1422,7 +1422,7 @@ export const products = [
     description: "10X1X10 BLISTER POUCH PACK + INSERT ",
     ingredient:
       "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antibiotics/10.webp"],
     price: 39.99,
   },
   //--------------------------------------------- ANTIDIABETICS-------------------------------------- //
@@ -1445,7 +1445,7 @@ export const products = [
     description: "3X10 ALU-ALU + INSERT",
     ingredient:
       "Each Uncoated  Tablet Contains:Metformin Hydrochloride BP  1000mg, Sitagliptin Phosphate BP 50mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antidiabetic/1.webp"],
     price: 39.99,
   },
   {
@@ -1559,7 +1559,7 @@ export const products = [
     description: "3X10  ALU-ALU + INSERT",
     ingredient:
       "Each film coated tablet contains: Atorvastatin Calcium BP 20 mg. Eq. to Atorvastatin",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/cardiovascular/1.webp"],
     price: 39.99,
   },
   {
@@ -1570,7 +1570,7 @@ export const products = [
     description: "3X10  ALU-ALU + INSERT",
     ingredient:
       "Each film coated tablet contains:Rosuvastatin Calcium BP 20mg. Eq. to Rosuvastatin",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/cardiovascular/2.webp"],
     price: 39.99,
   },
 
@@ -1583,7 +1583,7 @@ export const products = [
     description: "10x1X10 ALU-ALU + INSERT",
     ingredient:
       "Each film coated tablet contains: Aceclofenac	BP	100mg., Parcetamol	BP	325mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/analgsics/4.webp"],
     price: 0,
   },
   {
@@ -1593,7 +1593,7 @@ export const products = [
     category: "analgesics",
     description: "10x1X10 ALU-ALU + INSERT ",
     ingredient: "Each film coated tablet contains:Aceclofenac BP 100mg..",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/analgsics/5.webp"],
     price: 0,
   },
   {
@@ -1689,7 +1689,7 @@ export const products = [
     category: "analgesics",
     description: "10X10 BLISTER + INSERT ",
     ingredient: "Each film coated tablet contains:Ibuprofen	BP	400mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/analgsics/1.webp"],
     price: 0,
   },
   {
@@ -1700,7 +1700,7 @@ export const products = [
     description: "10X10 BLISTER + INSERT ",
     ingredient:
       "Each film coated tablet contains: Ibuprofen	BP	400mg., Paracetamol	 BP	325mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/analgsics/3.webp"],
     price: 0,
   },
   {
@@ -1710,7 +1710,7 @@ export const products = [
     category: "analgesics",
     description: "10X10 BLISTER + INSERT ",
     ingredient: "Each tablet contains : Paracetamol	BP	500 mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/analgsics/2.webp"],
     price: 0,
   },
   //------------------------------------------- EYE EAR AND NASAL DROPS----------------------------//
@@ -1733,7 +1733,7 @@ export const products = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition :Ciprofloxacin HCl Eq. to Ciprofloxacin  B.P.  0.3%w/v, Benzalkonium Chloride Solution B.P.  0.02%w/v (As preservative) Sterile Aqueous base  q.s.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/eye-and-ear/1.webp"],
     price: 0,
   },
   {
@@ -1799,7 +1799,7 @@ export const products = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition :Xylometazoline HCl  B.P.  0.05%w/v, Benzalkonium Chloride  B.P. 0.011%w/v, (As preservative)",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/eye-and-ear/2.webp"],
     price: 0,
   },
   {
@@ -1821,7 +1821,7 @@ export const products = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition :Ciprofloxacin B.P. 0.3%w/v, Dexamethasone Sodium 0.1%w/v",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/eye-and-ear/3.webp"],
     price: 0,
   },
   //------------------------------------------------ INJECTABLE ANTIBIOTICS---------------------------- //
@@ -1833,7 +1833,7 @@ export const products = [
     description: "10ml Vial + WFI with Insert (TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Ceftriaxone Sodium B.P. Eq. to Anhydrous Ceftriaxone 1000mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/5.webp"],
     price: 0,
   },
   {
@@ -1844,7 +1844,7 @@ export const products = [
     description: "10ml Vial + WFI with Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Cefuroxime sodium B.P. Eq. to Cefuroxime 750Mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/3.webp"],
     price: 0,
   },
   {
@@ -1877,7 +1877,7 @@ export const products = [
     description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Amoxycillin Sodium (Sterile) B.P. Eq. to Amoxycillin Sodium  1000Mg., Potassium  Clavulanate  (Sterile)  B.P. Eq. to Clavulanic Acid   200Mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/1.webp"],
     price: 0,
   },
   {
@@ -1888,7 +1888,7 @@ export const products = [
     description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Meropenem Trihydrate B.P. Eq to Anhydrous Meropenem 1000Mg. ",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/9.webp"],
     price: 0,
   },
   {
@@ -1922,7 +1922,7 @@ export const products = [
     description: "10x2ml Amp.with Insert(TRAY PACK)",
     ingredient:
       "Each ml contains:Ondansetron Hydrochloride B.P. Eq.to Ondansetron  2mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/7.webp"],
     price: 0,
   },
   {
@@ -1933,7 +1933,7 @@ export const products = [
     description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Pantoprazole sodium B.P. e.q. Pantoprazole 40mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/8.webp"],
     price: 0,
   },
   {
@@ -1944,7 +1944,7 @@ export const products = [
     description: "10x2ml Amp.with Insert(TRAY PACK)",
     ingredient:
       "Each ml contains:Paracetamol B.P. 150mg., Benzyl Alcohol B.P. 2%v/v",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/4.webp"],
     price: 0,
   },
   {
@@ -1955,7 +1955,7 @@ export const products = [
     description: "10x3ml Amp.with Insert(TRAY PACK)",
     ingredient:
       "Each ml contains: Thiamine Hydrochloride  B.P. 33.3mg., Pyridoxine  Hydrochloride  B.P.  33.3mg.,  Cyanaocobalamin  B.P.  333 mcg.Dexpanthenol B.P. 5mg., Nicotinamide B.P. 20mg., Benzyl Alcohol B.P. 2% v/v, Water for Injection B.P.  q.s.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/2.webp"],
     price: 0,
   },
   {
@@ -1966,7 +1966,7 @@ export const products = [
     description: "10ml Amp. + WFI with Insert",
     ingredient:
       "Each vial contains:Sterile Omeprazole Sodium B.P. Eq. to Anhydrous Omeprazole 40mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/7.webp"],
     price: 0,
   },
   {
@@ -1976,7 +1976,7 @@ export const products = [
     category: "injectable",
     description: "10x3ml Amp. with Insert",
     ingredient: "Each ml contains:Diclofenac Sodium B.P. 25Mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/6.webp"],
     price: 0,
   },
   {
@@ -2224,7 +2224,7 @@ export const products = [
     description: "10X1X10 ALU-ALU + INSERT",
     ingredient:
       "Each Enteric coated tablet Contains:Esomeprazole Magnesium Trihydrate BP 40mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antacid/1.webp"],
     price: 0,
   },
   {
@@ -2265,7 +2265,7 @@ export const products = [
     category: "antacid",
     description: "20X10 BLISTER  + INSERT",
     ingredient: "Each hard gelatin capsule contains:Omeprazole	B.P.	20 mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/antacid/2.webp"],
     price: 0,
   },
   {
@@ -2388,7 +2388,7 @@ export const products = [
     description: "30ML WITH CARTON +INSERT",
     ingredient:
       "Each 5 ml contains:Azithromycin eq. to Anhydrous Azithromycin BP 200 mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/liquid-syp/5.webp"],
     price: 0,
   },
   {
@@ -2419,7 +2419,7 @@ export const products = [
     description: "100 ML  WITH WFI + INSERT",
     ingredient:
       "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/liquid-syp/6.webp"],
     price: 0,
   },
   {
@@ -2441,7 +2441,7 @@ export const products = [
     description: "200ML WITH OUTER + INSERT",
     ingredient:
       "Each 15 ml contains Cyproheptadine HCL  BP  2mg, Vitamin A (as Palmitate)  BP  1500IU, Vitamin D3  BP  300IU, Thiamine HCL (Vit B1) BP 5mg, Riboflavin  BP 2.2mg, Pyridoxine HCL (Vit B6)  BP  5mg, Cyanocobalamin  BP  5mcg, Dexpanthenol   BP 25mg. ",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/liquid-syp/2.webp"],
     price: 0,
   },
   {
@@ -2529,7 +2529,7 @@ export const products = [
     description: "15 Gm. with Outer Box + Insert",
     ingredient:
       "Silver Nitrate B.P. 0.20%w/w, Chlorhexidine gluconate solution B.P 0.20w/w, Preservative:Chlorocresol B.P 0.12%w/w/",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/ointment/3.webp"],
     price: 0,
   },
   {
