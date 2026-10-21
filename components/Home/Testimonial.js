@@ -62,7 +62,7 @@ export default function Testimonial() {
         />
 
         {/* Heading */}
-        <h2 className="relative z-10 text-3xl font-bold mb-2">{title}</h2>
+        <h2 className="relative z-10 text-3xl font-bold mb-2">Testimonials</h2>
 
         {/* Right decorative image */}
         <img
