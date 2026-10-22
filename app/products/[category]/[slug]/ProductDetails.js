@@ -37,11 +37,12 @@ export default function ProductDetails({ product }) {
   //   product.description.split(" ").slice(0, 20).join(" ") + "...";
 
   return (
-    <div className="max-w-6xl mx-auto py-16 px-4">
-      <div className="md:flex md:gap-10">
+    <section className="bg-[#e7ebee]">
+      <div className="max-w-6xl mx-auto py-16 px-4">
+      <div className="md:flex md:gap-10 bg-white p-10 rounded-xl">
         {/* Left Side: Images */}
         <div className="md:w-1/2">
-          <div className="relative w-full h-80 md:h-[300px] mb-3 border rounded overflow-hidden shadow-sm">
+          <div className="relative w-full h-80 md:h-[300px] mb-3 border rounded-lg overflow-hidden shadow-sm">
             <Image
               src={mainImage}
               alt={product.title}
@@ -56,7 +57,7 @@ export default function ProductDetails({ product }) {
               <div
                 key={idx}
                 onClick={() => setMainImage(img)}
-                className={`relative w-20 h-20 border rounded overflow-hidden cursor-pointer transition duration-300 ${
+                className={`relative w-20 h-20 border rounded-lg overflow-hidden cursor-pointer transition duration-300 ${
                   mainImage === img
                     ? "border-[#B3CB02] border-2 scale-105"
                     : "border-gray-200 hover:scale-105"
@@ -74,9 +75,9 @@ export default function ProductDetails({ product }) {
         </div>
 
         {/* Right Side: Details */}
-        <div className="md:w-1/2 mt-6 md:mt-0 flex flex-col justify-between">
+        <div className="md:w-1/2 mt-6 md:mt-10 flex flex-col justify-between">
           <div>
-            <p className="text-sm text-[#B3CB02] mb-4">
+            <p className="text-sm font-semibold text-[#B3CB02] mb-4">
               {product.category === "ayurvedic"
                 ? "Ayurvedic & Herbal Products"
                 : product.category === "medical-devices"
@@ -134,16 +135,16 @@ export default function ProductDetails({ product }) {
             </div> */}
 
             {/* Buttons */}
-            <div className="flex flex-wrap gap-4 mt-4">
-              <Link href="#">
-                <button className="px-6 py-3 bg-[#B3CB02] text-white font-semibold rounded transform transition hover:scale-95 hover:bg-[#007a29]">
+            <div className="w-full gap-4 mt-4">
+              <Link href="#" className="block w-full">
+                <button className="px-6 py-3 w-[62%] bg-[#009136] text-white font-semibold rounded transform transition hover:scale-95 hover:bg-[#007a29]">
                   Book Now
                 </button>
               </Link>
             </div>
             <div className="flex flex-wrap gap-4 mt-4">
               <Link href={`/products?category=${product.category}`}>
-                <button className="px-6 py-3 bg-gray-200 text-gray-800 font-semibold rounded transform transition hover:scale-95 hover:bg-gray-300">
+                <button className="px-6 py-3 bg-gray-200 border border-[#009136] text-gray-800 font-semibold rounded transform transition hover:scale-95 hover:bg-gray-300">
                   ← Back to{" "}
                   {product.category === "ayurvedic"
                     ? "Ayurvedic"
@@ -209,5 +210,6 @@ export default function ProductDetails({ product }) {
         )}
       </div>
     </div>
+    </section>
   );
 }
