@@ -42,7 +42,7 @@ export default function ProductDetails({ product }) {
       <div className="md:flex md:gap-10 bg-white p-10 rounded-xl">
         {/* Left Side: Images */}
         <div className="md:w-1/2">
-          <div className="relative w-full h-80 md:h-[300px] mb-3 border rounded-lg overflow-hidden shadow-sm">
+          <div className="relative w-full h-52 md:h-[300px] mb-3 border rounded-lg overflow-hidden shadow-sm">
             <Image
               src={mainImage}
               alt={product.title}
