@@ -45,7 +45,6 @@ export default function OurProducts() {
       </div>
 
       <div className="max-w-6xl mx-auto relative">
-        
         {/* Custom Navigation Buttons */}
         <div className="absolute top-1/2 -translate-y-1/2 left-2 z-20">
           <button className="swiper-button-prev-custom bg-[#B3CB02] text-white p-3 rounded-full hover:bg-[#009136] transition">
@@ -80,11 +79,13 @@ export default function OurProducts() {
         >
           {categories.map((cat) => (
             <SwiperSlide key={cat.slug}>
-              <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300">
-
+              <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 mb-10">
                 {/* Image */}
                 <div className="relative w-full h-48 overflow-hidden cursor-pointer">
-                  <Link href={`/products/${cat.slug}`} className="block w-full h-full">
+                  <Link
+                    href={`/products/${cat.slug}`}
+                    className="block w-full h-full"
+                  >
                     <Image
                       src={cat.img}
                       alt={cat.title}
@@ -96,7 +97,6 @@ export default function OurProducts() {
 
                 {/* Title + Button */}
                 <div className="p-4 text-center">
-
                   <Link href={`/products/${cat.slug}`} className="block">
                     <h3 className="text-lg font-semibold mb-3 cursor-pointer hover:text-[#009136] truncate">
                       {cat.title}
@@ -110,7 +110,6 @@ export default function OurProducts() {
                     View Products
                   </Link>
                 </div>
-
               </div>
             </SwiperSlide>
           ))}
@@ -125,7 +124,6 @@ export default function OurProducts() {
           </button>
         </Link>
       </div>
-
     </section>
   );
 }

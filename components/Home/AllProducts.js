@@ -53,7 +53,7 @@ export default function AllProducts() {
         >
           {products.map((product) => (
             <SwiperSlide key={product.id}>
-              <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300">
+              <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 mb-10">
                 {/* Image */}
                 <div className="relative w-full h-48 overflow-hidden cursor-pointer">
                   <Link
@@ -90,9 +90,9 @@ export default function AllProducts() {
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "medical-devices"
-                      ? "Medical Devices & Other Products"
-                      : product.category.charAt(0).toUpperCase() +
-                        product.category.slice(1)}
+                        ? "Medical Devices & Other Products"
+                        : product.category.charAt(0).toUpperCase() +
+                          product.category.slice(1)}
                   </p>
 
                   <Link

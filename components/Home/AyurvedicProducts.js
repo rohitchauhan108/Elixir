@@ -55,10 +55,12 @@ export default function AyurvedicProducts() {
             .filter((product) => product.category === "ayurvedic")
             .map((product) => (
               <SwiperSlide key={product.id}>
-                <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300">
+                <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 mb-10">
                   {/* Image */}
                   <div className="relative w-full h-48 overflow-hidden cursor-pointer">
-                    <Link href={`/products/${product.category}/${product.slug}`}>
+                    <Link
+                      href={`/products/${product.category}/${product.slug}`}
+                    >
                       <Image
                         src={product.images[0]}
                         alt={product.title}
@@ -70,7 +72,9 @@ export default function AyurvedicProducts() {
 
                   {/* Details */}
                   <div className="p-4">
-                    <Link href={`/products/${product.category}/${product.slug}`}>
+                    <Link
+                      href={`/products/${product.category}/${product.slug}`}
+                    >
                       <h3 className="text-lg font-semibold mb-2 hover:text-[#009136] truncate">
                         {product.title}
                       </h3>

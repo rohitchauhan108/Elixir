@@ -57,7 +57,7 @@ export default function SurgicalProducts() {
             .filter((product) => product.category === "cardiovascular")
             .map((product) => (
               <SwiperSlide key={product.id}>
-                <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300">
+                <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 mb-10">
                   {/* Image */}
                   <div className="relative w-full h-48 overflow-hidden cursor-pointer">
                     <Link
@@ -75,7 +75,10 @@ export default function SurgicalProducts() {
 
                   {/* Details */}
                   <div className="p-4">
-                    <Link href={`/products/${product.category}/${product.slug}`} className="block">
+                    <Link
+                      href={`/products/${product.category}/${product.slug}`}
+                      className="block"
+                    >
                       <h3 className="text-lg font-semibold mb-2 cursor-pointer hover:text-[#009136] truncate">
                         {product.title}
                       </h3>

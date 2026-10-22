@@ -1,4 +1,6 @@
-export const products = [
+const genericProductDescription = "Painfar Oil (100 ML) is a powerful herbal remedy...";
+
+const productCatalog = [
   {
     id: "1",
     title: "PAINFAR OIL (100 ML)",
@@ -3688,3 +3690,11 @@ export const products = [
     price: 0,
   },
 ];
+
+export const products = productCatalog.map((product) => ({
+  ...product,
+  description:
+    product.description === genericProductDescription
+      ? `Product information for ${product.title} is available on request.`
+      : product.description,
+}));

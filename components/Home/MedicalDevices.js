@@ -58,10 +58,12 @@ export default function MedicalProducts() {
             .filter((product) => product.category === "medical-devices")
             .map((product) => (
               <SwiperSlide key={product.id}>
-                <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300">
+                <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 mb-10">
                   {/* Image */}
                   <div className="relative w-full h-52 sm:h-56 md:h-60 overflow-hidden cursor-pointer">
-                    <Link href={`/products/${product.category}/${product.slug}`}>
+                    <Link
+                      href={`/products/${product.category}/${product.slug}`}
+                    >
                       <Image
                         src={product.images[0]}
                         alt={product.title}
@@ -73,7 +75,9 @@ export default function MedicalProducts() {
 
                   {/* Details */}
                   <div className="p-4">
-                    <Link href={`/products/${product.category}/${product.slug}`}>
+                    <Link
+                      href={`/products/${product.category}/${product.slug}`}
+                    >
                       <h3 className="text-base sm:text-lg font-semibold mb-2 hover:text-[#009136] truncate">
                         {product.title}
                       </h3>

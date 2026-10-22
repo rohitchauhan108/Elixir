@@ -120,8 +120,7 @@ export default function ProductDetails({ product }) {
             <h1 className="text-2xl font-bold mb-2">{product.title}</h1>
             <p className="text-md text-gray-600 mb-4">{product.description}</p>
 
-            {/* Ingredients — only for Ayurvedic */}
-            {product.category === "ayurvedic" && (
+            {product.ingredient && (
               <div className="mb-4">
                 <h3 className="text-xl font-semibold mb-1">Ingredients:</h3>
                 <p className="text-sm text-gray-700">{product.ingredient}</p>
@@ -137,14 +136,14 @@ export default function ProductDetails({ product }) {
             {/* Buttons */}
             <div className="w-full gap-4 mt-4">
               <Link href="#" className="block w-full">
-                <button className="px-6 py-3 w-[68%] bg-[#009136] text-white font-semibold rounded transform transition hover:scale-95 hover:bg-[#007a29]">
+                <button className="px-6 py-3 w-full lg:w-[68%] bg-[#009136] text-white font-semibold rounded transform transition hover:scale-95 hover:bg-[#007a29] lg:text-[14px] text-[10px]">
                   Book Now
                 </button>
               </Link>
             </div>
-            <div className="flex flex-wrap gap-4 mt-4">
+            <div className="w-full gap-4 mt-4">
               <Link href={`/products?category=${product.category}`}>
-                <button className="px-6 py-3 bg-gray-200 border border-[#009136] text-gray-800 font-semibold rounded transform transition hover:scale-95 hover:bg-gray-300">
+                <button className="w-full lg:w-[68%] px-6 py-3 bg-gray-200 border border-[#009136] text-gray-800 font-semibold rounded transform transition hover:scale-95 hover:bg-gray-300 lg:text-[14px] text-[10px]">
                   ← Back to{" "}
                   {product.category === "ayurvedic"
                     ? "Ayurvedic"
