@@ -61,7 +61,7 @@ export default function MedicalProducts() {
                 <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300">
                   {/* Image */}
                   <div className="relative w-full h-52 sm:h-56 md:h-60 overflow-hidden cursor-pointer">
-                    <Link href={`/products/${product.slug}`}>
+                    <Link href={`/products/${product.category}/${product.slug}`}>
                       <Image
                         src={product.images[0]}
                         alt={product.title}
@@ -73,7 +73,7 @@ export default function MedicalProducts() {
 
                   {/* Details */}
                   <div className="p-4">
-                    <Link href={`/products/${product.slug}`}>
+                    <Link href={`/products/${product.category}/${product.slug}`}>
                       <h3 className="text-base sm:text-lg font-semibold mb-2 hover:text-[#009136] truncate">
                         {product.title}
                       </h3>
@@ -86,7 +86,7 @@ export default function MedicalProducts() {
                     </p>
 
                     <Link
-                      href={`/products/${product.slug}`}
+                      href={`/products/${product.category}/${product.slug}`}
                       className="inline-block px-4 py-2 bg-[#009136] text-white text-sm rounded hover:bg-[#B3CB02] transition"
                     >
                       Read More

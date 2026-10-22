@@ -61,7 +61,7 @@ export default function Antacid() {
                   {/* Image */}
                   <div className="relative w-full h-48 overflow-hidden cursor-pointer">
                     <Link
-                      href={`/products/${product.slug}`}
+                      href={`/products/${product.category}/${product.slug}`}
                       className="block w-full h-full"
                     >
                       <Image
@@ -75,7 +75,7 @@ export default function Antacid() {
 
                   {/* Details */}
                   <div className="p-4">
-                    <Link href={`/products/${product.slug}`} className="block">
+                    <Link href={`/products/${product.category}/${product.slug}`} className="block">
                       <h3 className="text-lg font-semibold mb-2 cursor-pointer hover:text-[#009136] truncate">
                         {product.title}
                       </h3>
@@ -88,7 +88,7 @@ export default function Antacid() {
                     </p>
 
                     <Link
-                      href={`/products/${product.slug}`}
+                      href={`/products/${product.category}/${product.slug}`}
                       className="inline-block px-4 py-2 bg-[#009136] text-white rounded hover:bg-[#B3CB02] transition"
                     >
                       Read More

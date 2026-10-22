@@ -47,7 +47,7 @@ export default function ProductDetails({ product }) {
               src={mainImage}
               alt={product.title}
               fill
-              className="object-cover transition duration-500 ease-in-out"
+              className="lg:object-cover object-contain transition duration-500 ease-in-out"
             />
           </div>
 
@@ -67,7 +67,7 @@ export default function ProductDetails({ product }) {
                   src={img}
                   alt={`${product.title} ${idx}`}
                   fill
-                  className="object-cover"
+                  className="lg:object-cover object-contain"
                 />
               </div>
             ))}
@@ -137,7 +137,7 @@ export default function ProductDetails({ product }) {
             {/* Buttons */}
             <div className="w-full gap-4 mt-4">
               <Link href="#" className="block w-full">
-                <button className="px-6 py-3 w-[62%] bg-[#009136] text-white font-semibold rounded transform transition hover:scale-95 hover:bg-[#007a29]">
+                <button className="px-6 py-3 w-[68%] bg-[#009136] text-white font-semibold rounded transform transition hover:scale-95 hover:bg-[#007a29]">
                   Book Now
                 </button>
               </Link>
