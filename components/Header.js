@@ -39,10 +39,9 @@ export default function Header() {
       href: "/products?category=eye-ear-and-nasal-drops",
     },
     {
-      name: "INJECTABLE (ANTIBIOTIC)",
-      href: "/products?category=injectable-antibiotic",
+      name: "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]",
+      href: "/products?category=tablets",
     },
-    { name: "TABLETS", href: "/products?category=tablets" },
     { name: "ANTACID", href: "/products?category=antacid" },
     { name: "ANTIMALARIAL", href: "/products?category=antimalarial" },
     { name: "LIQUID/DRY SYP.", href: "/products?category=liquid-dry-syp" },
@@ -183,12 +182,6 @@ export default function Header() {
                           Eye/Ear & Nasal Drops
                         </Link>
                         <Link
-                          href="/products?category=injectable-antibiotic"
-                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
-                        >
-                          Injectable(Antibiotic)
-                        </Link>
-                        <Link
                           href="/products?category=injectable"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
@@ -198,7 +191,7 @@ export default function Header() {
                           href="/products?category=tablets"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                          Tablets
+                          Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]
                         </Link>
                         <Link
                           href="/products?category=antacid"

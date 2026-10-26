@@ -14,7 +14,6 @@ import Antidiabetic from "@/components/Home/Antidiabetic";
 import Cardiovascular from "@/components/Home/Cardiovascular";
 import Analgesics from "@/components/Home/Analgesics";
 import EyeEarNasal from "@/components/Home/EyeEarNasal";
-import InjectableAntibiotic from "@/components/Home/InjectableAntibiotic";
 import Antacid from "@/components/Sliders/Antacid";
 import Injectable from "@/components/Sliders/Injectable";
 import Antimalarial from "@/components/Sliders/Antimalarial";
@@ -90,10 +89,8 @@ export default function ProductDetails({ product }) {
                 ? "Anti-Hyperlipidemic"
                 : product.category === "eye-ear-and-nasal-drops"
                 ? "EYE/EAR & NASAL DROPS"
-                : product.category === "injectable-antibiotic"
-                ? "INJECTABLE (ANTIBIOTIC)"
                 : product.category === "tablets"
-                ? "TABLETS"
+                ? "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]"
                 : product.category === "antacid"
                 ? "ANTACID"
                 : product.category === "antimalarial"
@@ -178,8 +175,6 @@ export default function ProductDetails({ product }) {
           <Analgesics />
         ) : product.category === "eye-ear-and-nasal-drops" ? (
           <EyeEarNasal />
-        ) : product.category === "injectable-antibiotic" ? (
-          <InjectableAntibiotic />
         ) : product.category === "injectable" ? (
           <Injectable />
         ) : product.category === "antacid" ? (

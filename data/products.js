@@ -1831,7 +1831,7 @@ const productCatalog = [
     id: "178",
     title: "CEFTRIFAR 1GM INJ.",
     slug: "ceftrifar-1gm-inj",
-    category: "injectable-antibiotic",
+    category: "injectable",
     description: "10ml Vial + WFI with Insert (TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Ceftriaxone Sodium B.P. Eq. to Anhydrous Ceftriaxone 1000mg",
@@ -1842,7 +1842,7 @@ const productCatalog = [
     id: "179",
     title: "CEFUFAR 750 INJ.",
     slug: "cefufar-750-inj",
-    category: "injectable-antibiotic",
+    category: "injectable",
     description: "10ml Vial + WFI with Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Cefuroxime sodium B.P. Eq. to Cefuroxime 750Mg.",
@@ -1853,7 +1853,7 @@ const productCatalog = [
     id: "180",
     title: "VANCOFAR 500 INJ.",
     slug: "vancofar-500-inj",
-    category: "injectable-antibiotic",
+    category: "injectable",
     description: "10ml Vial + WFI with Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Vancomycin Hydrochloride B.P. Eq. to Vancomycin 500Mg.",
@@ -1864,7 +1864,7 @@ const productCatalog = [
     id: "181",
     title: "PIPERAFAR TZ 4.5GM INJ.",
     slug: "piperafar-tz-4.5gm-inj",
-    category: "injectable-antibiotic",
+    category: "injectable",
     description: "20ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Piperacillin Sodium B.P. Eq.to Piperacillin  4000mg., Sterile Tazobactam Sodium B.P.Eq.to Anhydrous Tazobactam  500mg.",
@@ -1875,7 +1875,7 @@ const productCatalog = [
     id: "182",
     title: "MOXIFAR-CV 1.2 INJ.",
     slug: "moxifar-cv-1.2-inj",
-    category: "injectable-antibiotic",
+    category: "injectable",
     description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Amoxycillin Sodium (Sterile) B.P. Eq. to Amoxycillin Sodium  1000Mg., Potassium  Clavulanate  (Sterile)  B.P. Eq. to Clavulanic Acid   200Mg.",
@@ -1886,7 +1886,7 @@ const productCatalog = [
     id: "183",
     title: "MEROFAR 1GM INJ.",
     slug: "merofar-1gm-inj",
-    category: "injectable-antibiotic",
+    category: "injectable",
     description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Meropenem Trihydrate B.P. Eq to Anhydrous Meropenem 1000Mg. ",
@@ -1897,7 +1897,7 @@ const productCatalog = [
     id: "184",
     title: "CEFOFAR-S INJ.",
     slug: "cefofar-s-inj",
-    category: "injectable-antibiotic",
+    category: "injectable",
     description: "1.5GM (VIAL+WFI +TRAY)",
     ingredient:
       "Each vial contains:Cefoperazone Sodium	BP	1000mg., Sulbactam Sosium	BP	500mg. ",
@@ -1960,17 +1960,17 @@ const productCatalog = [
     images: ["/products/injectables/2.webp"],
     price: 0,
   },
-  {
-    id: "190",
-    title: "OMIFAR 40 INJ.",
-    slug: "omifar-40-inj",
-    category: "injectable",
-    description: "10ml Amp. + WFI with Insert",
-    ingredient:
-      "Each vial contains:Sterile Omeprazole Sodium B.P. Eq. to Anhydrous Omeprazole 40mg.",
-    images: ["/products/injectables/7.webp"],
-    price: 0,
-  },
+  // {
+  //   id: "190",
+  //   title: "OMIFAR 40 INJ.",
+  //   slug: "omifar-40-inj",
+  //   category: "injectable",
+  //   description: "10ml Amp. + WFI with Insert",
+  //   ingredient:
+  //     "Each vial contains:Sterile Omeprazole Sodium B.P. Eq. to Anhydrous Omeprazole 40mg.",
+  //   images: ["/products/injectables/7.webp"],
+  //   price: 0,
+  // },
   {
     id: "191",
     title: "DIZOFAR INJ.",
@@ -2043,7 +2043,18 @@ const productCatalog = [
     description:
       "10X1X1 BLISTER (MONO CARTON 1X1) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains: Levonorgestrel	BP	1.5 mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/Phosphodiesterase/4.jpg"],
+    price: 0,
+  },
+  {
+    id: "356",
+    title: "NOT-WANTED KIT.",
+    slug: "not-wanted-72tab",
+    category: "tablets",
+    description:
+      "10X1X1 BLISTER (MONO CARTON 1X1) + INSERT IN EVERY MONO + OUTER",
+    ingredient: "Each film coated tablet contains: Levonorgestrel	BP	1.5 mg",
+    images: ["/products/Phosphodiesterase/1.jpg"],
     price: 0,
   },
   {
@@ -2054,7 +2065,7 @@ const productCatalog = [
     description:
       "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each  Uncoated tablet contains:Misoprostol BP 200mcg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/Phosphodiesterase/5.jpg"],
     price: 0,
   },
   {
@@ -2064,7 +2075,7 @@ const productCatalog = [
     category: "tablets",
     description: "10X1X4 BLISTER WITH OUTER",
     ingredient: "Each film coated tablet contains:Tadalafil	BP	20 mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/Phosphodiesterase/3.jpg"],
     price: 0,
   },
   {
@@ -2075,7 +2086,7 @@ const productCatalog = [
     description:
       "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains:Sildenafil Citrate	BP	100 mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/Phosphodiesterase/2.jpg"],
     price: 0,
   },
   {
@@ -2329,24 +2340,24 @@ const productCatalog = [
   //--------------------------------------------- LIQUID/DRY SYP.------------------------------------- //
   {
     id: "224",
-    title: " AMOXIFAR-125  SUSP.",
+    title: " MOXIFAR-125  SUSP.",
     slug: "amoxifar-125-susp",
     category: "liquid-dry-syp",
     description: "100ML OUTER + INSERT WITH DOSE CAP",
     ingredient:
       "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  125mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/liquid-syp/3.jpg"],
     price: 0,
   },
   {
     id: "225",
-    title: "AMOXIFAR-250 SUSP.",
+    title: "MOXIFAR-250 SUSP.",
     slug: "amoxifar-250-susp",
     category: "liquid-dry-syp",
     description: "100ML OUTER + INSERT WITH DOSE CAP",
     ingredient:
       "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  250mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/liquid-syp/2.jpg"],
     price: 0,
   },
   {
@@ -2357,20 +2368,20 @@ const productCatalog = [
     description: "60ML/100 ML WITH WFI + INSERT",
     ingredient:
       "Amoxycillin Trihydrate  BP 125mg Potassium Clavulanate BP 31.5mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/liquid-syp/1.jpg"],
     price: 0,
   },
-  {
-    id: "227",
-    title: "MOXIFAR-CV SUSP.",
-    slug: "moxifar-cv-susp",
-    category: "liquid-dry-syp",
-    description: "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient:
-      "Each 5ml. (on reconstitution ) Suspension contains :Amoxycillin  Trihydrate  B.P Eq. To Amoxycillin 200 mg Potassium Clavulanate  Diluted  B.P Eq. To Clavulanic Acid 28.5 mg",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
+  // {
+  //   id: "227",
+  //   title: "MOXIFAR-CV SUSP.",
+  //   slug: "moxifar-cv-susp",
+  //   category: "liquid-dry-syp",
+  //   description: "100ML OUTER + INSERT WITH DOSE CAP",
+  //   ingredient:
+  //     "Each 5ml. (on reconstitution ) Suspension contains :Amoxycillin  Trihydrate  B.P Eq. To Amoxycillin 200 mg Potassium Clavulanate  Diluted  B.P Eq. To Clavulanic Acid 28.5 mg",
+  //   images: ["/Assets/no-img.jpg"],
+  //   price: 0,
+  // },
   {
     id: "228",
     title: "MOXIFAR-CV DS SUSP.",
@@ -2425,17 +2436,6 @@ const productCatalog = [
     price: 0,
   },
   {
-    id: "233",
-    title: "CEF-FAR DRY SYP.",
-    slug: "cef-far-dry-syp",
-    category: "liquid-dry-syp",
-    description: "60 ML  WITH WFI + INSERT",
-    ingredient:
-      "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
     id: "234",
     title: "CYPROFAR SYP.",
     slug: "cyprofar-syp",
@@ -2447,13 +2447,24 @@ const productCatalog = [
     price: 0,
   },
   {
+    id: "353",
+    title: "LYCO-FAR SYP.",
+    slug: "cyprofar-syp",
+    category: "liquid-dry-syp",
+    description: "200ML WITH OUTER + INSERT",
+    ingredient:
+      "Each 15 ml contains Cyproheptadine HCL  BP  2mg, Vitamin A (as Palmitate)  BP  1500IU, Vitamin D3  BP  300IU, Thiamine HCL (Vit B1) BP 5mg, Riboflavin  BP 2.2mg, Pyridoxine HCL (Vit B6)  BP  5mg, Cyanocobalamin  BP  5mcg, Dexpanthenol   BP 25mg. ",
+    images: ["/products/liquid-syp/11.jpg"],
+    price: 0,
+  },
+  {
     id: "235",
     title: "PARAFAR SUSP.",
     slug: "parafar-susp",
     category: "liquid-dry-syp",
     description: "100 ML WITH OUTER, DOSE CAP + INSERT",
     ingredient: "Each 5 ml contains Paracetamol BP 125 mg",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/liquid-syp/5.jpg"],
     price: 0,
   },
   {
@@ -2567,12 +2578,12 @@ const productCatalog = [
   },
   {
     id: "246",
-    title: "CLOTRIFAR CREAM",
+    title: "CLOTRIFAR-B",
     slug: "clotrifar-cream",
     category: "ointment",
     description: "30 Gm. with Outer Box  +Insert",
     ingredient: "Clotrimazole B.P. 1%w/w, In water miscible base q.s.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/ointment/5.jpg"],
     price: 0,
   },
   {
@@ -2647,6 +2658,60 @@ const productCatalog = [
     description: "30GM with Outer Box  +Insert",
     ingredient:
       "Each gram of  ointment  conatains:Tacrolimus BP 0.1%w/w, Ointment base  q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "351",
+    title: "DICLOFAR GEL",
+    slug: "diclofar-gel",
+    category: "ointment",
+    description: "30 GM",
+    ingredient:
+      "Diclofenac Diethylamine BP 1.16% w/w, equivalent to Diclofenac Sodium BP 1.00% w/w, Linseed Oil BP 3.00% w/w, Methyl Salicylate BP 10.00% w/w, Menthol BP 5.00% w/w, Benzyl Alcohol BP 1.00% w/w",
+    images: ["/products/ointment/9.png"],
+    price: 0,
+  },
+  {
+    id: "357",
+    title: "BENZOFAR-S OINT.",
+    slug: "benzofar-s-oint",
+    category: "ointment",
+    description: "20 GM",
+    ingredient:
+      "Benzoic Acid BP 9.95% w/w, Salicylic Acid BP 10% w/w, Thymol BP 0.5% w/w",
+    images: ["/products/ointment/6.jpg"],
+    price: 0,
+  },
+  {
+    id: "358",
+    title: "BURNFAR OINT.",
+    slug: "burnfar-oint",
+    category: "ointment",
+    description: "20 GM",
+    ingredient:
+      "Silver Nitrate BP 0.20% w/w, Chlorhexidine Gluconate Solution BP 0.20% w/w, Preservative: Chlorocresol BP 0.12% w/w",
+    images: ["/products/ointment/8.jpg"],
+    price: 0,
+  },
+  {
+    id: "359",
+    title: "CORTIFAR OINT.",
+    slug: "cortifar-oint",
+    category: "ointment",
+    description: "30 GM",
+    ingredient: "Hydrocortisone BP 1% w/w",
+    images: ["/products/ointment/7.jpg"],
+    price: 0,
+  },
+  {
+    id: "360",
+    title: "CLOTRIFAR-B OINT.",
+    slug: "clotrifar-b-oint",
+    category: "ointment",
+    description: "20 GM",
+    ingredient:
+      "Clotrimazole BP 1% w/w, Beclomethasone Dipropionate BP 0.025% w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },

@@ -14,7 +14,9 @@ export default function Tablets() {
     <section className="py-16 px-4 bg-white relative">
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center mb-8">
-        <h2 className="text-3xl font-bold mb-2">Tablets</h2>
+        <h2 className="text-3xl font-bold mb-2">
+          Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]
+        </h2>
         <Divider />
       </div>
 

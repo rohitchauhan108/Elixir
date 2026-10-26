@@ -93,7 +93,9 @@ export default function AllProducts() {
                         ? "Medical Devices & Other Products"
                         : product.category === "anti-hyperlipidemic"
                           ? "Anti-Hyperlipidemic"
-                        : product.category.charAt(0).toUpperCase() +
+                          : product.category === "tablets"
+                            ? "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]"
+                          : product.category.charAt(0).toUpperCase() +
                           product.category.slice(1)}
                   </p>
 

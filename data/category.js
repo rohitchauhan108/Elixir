@@ -36,13 +36,7 @@ export const categories = [
     buttonLink: "/products?category=eye-ear-and-nasal-drops",
   },
   {
-    title: "INJECTABLE (ANTIBIOTIC)",
-    slug: "injectable-antibiotic",
-    img: "/Assets/no-img.jpg",
-    buttonLink: "/products?category=injectable-antibiotic",
-  },
-  {
-    title: "Tablets",
+    title: "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]",
     slug: "tablets",
     img: "/Assets/no-img.jpg",
     buttonLink: "/products?category=tablets",
