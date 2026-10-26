@@ -721,7 +721,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/oxygen-mask-child.webp"],
+    images: ["/surgical-products/oxygen-mask.jpeg"],
     price: 39.99,
   },
   {
@@ -731,7 +731,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/oxygen-mask-adult.webp"],
+    images: ["/surgical-products/oxygen-mask.jpeg"],
     price: 39.99,
   },
   {
@@ -741,7 +741,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/blood-set.jpeg"],
     price: 39.99,
   },
   {
@@ -751,7 +751,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/urine-bag.webp"],
     price: 39.99,
   },
   {
@@ -761,7 +761,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/foley.jpeg"],
     price: 39.99,
   },
   {
@@ -771,7 +771,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/foley.jpeg"],
     price: 39.99,
   },
   {
@@ -781,7 +781,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/foley.jpeg"],
     price: 39.99,
   },
   {
@@ -791,7 +791,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/foley.jpeg"],
     price: 39.99,
   },
   {
@@ -801,7 +801,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/suction.jpeg"],
     price: 39.99,
   },
   {
@@ -811,7 +811,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/suction.jpeg"],
     price: 39.99,
   },
   {
@@ -821,7 +821,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/suction.jpeg"],
     price: 39.99,
   },
   {
@@ -851,7 +851,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/intra-18.jpg"],
     price: 39.99,
   },
   {
@@ -861,7 +861,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/intra-20.png"],
     price: 39.99,
   },
   {
@@ -871,7 +871,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/intra-22.png"],
     price: 39.99,
   },
   {
@@ -881,7 +881,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/needle-18.png"],
     price: 39.99,
   },
   {
@@ -891,7 +891,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/needle-18.png"],
     price: 39.99,
   },
   {
@@ -901,7 +901,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/needle-18.png"],
     price: 39.99,
   },
   {
@@ -911,7 +911,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/syringe.jpeg"],
     price: 39.99,
   },
   {
@@ -921,7 +921,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/syringe.jpeg"],
     price: 39.99,
   },
   {
@@ -931,7 +931,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/syringe.jpeg"],
     price: 39.99,
   },
   {
@@ -941,7 +941,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/syringe.jpeg"],
     price: 39.99,
   },
   {
@@ -951,7 +951,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/giving-set.png"],
     price: 39.99,
   },
   {
@@ -961,7 +961,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/giving-set.png"],
     price: 39.99,
   },
   {
@@ -971,7 +971,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/paraffin.jpg"],
     price: 39.99,
   },
   {
@@ -981,7 +981,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/3-way.webp"],
     price: 39.99,
   },
   {
@@ -991,7 +991,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/colostomy.jpeg"],
     price: 39.99,
   },
   {
@@ -1001,7 +1001,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/yankaur.jpeg"],
     price: 39.99,
   },
   {
@@ -1011,7 +1011,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/nasal.jpg"],
     price: 39.99,
   },
   {
@@ -1101,7 +1101,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/ultrasound-gel.jpg"],
     price: 39.99,
   },
   {
@@ -1111,7 +1111,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/under-sheets.webp"],
     price: 39.99,
   },
   {
@@ -1141,7 +1141,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/alcohol.webp"],
     price: 39.99,
   },
   {
@@ -1171,7 +1171,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/crutches.jpg"],
     price: 39.99,
   },
   {
@@ -1181,7 +1181,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/corn-cap.png"],
     price: 39.99,
   },
   {
@@ -1231,7 +1231,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/harnia-bel.webp"],
     price: 39.99,
   },
   {
@@ -1253,7 +1253,7 @@ const productCatalog = [
       "High-quality fiberglass casting tape designed for orthopedic applications, offering superior strength and lightweight support.",
     ingredient:
       "Made with durable fiberglass material ensuring quick setting and optimal patient comfort.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/prime-cast.jpeg"],
     price: 39.99,
   },
   {
@@ -1264,7 +1264,7 @@ const productCatalog = [
     description:
       "Reliable fiberglass casting tape suitable for immobilization and fracture treatment, providing excellent moldability and strength.",
     ingredient: "Composed of high-grade fiberglass fibers for medical use.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/prime-cast.jpeg"],
     price: 39.99,
   },
   {
@@ -1275,7 +1275,7 @@ const productCatalog = [
     description:
       "Durable fiberglass casting tape ideal for orthopedic support, ensuring lightweight comfort and fast setting time.",
     ingredient: "Premium fiberglass mesh material for long-lasting casts.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/prime-cast.jpeg"],
     price: 39.99,
   },
   {
@@ -1287,7 +1287,7 @@ const productCatalog = [
       "Fiberglass casting tape offering excellent strength, comfort, and easy application for various medical treatments.",
     ingredient:
       "Constructed from strong fiberglass composite suitable for clinical use.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/prime-cast.jpeg"],
     price: 39.99,
   },
   {
@@ -1298,7 +1298,7 @@ const productCatalog = [
     description:
       "High-quality disposable surgical gloves ensuring superior protection, comfort, and tactile sensitivity during medical procedures.",
     ingredient: "Made from non-sterile latex or nitrile material for safe use.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/examination-gloves.webp"],
     price: 39.99,
   },
   //------------------------------------- ANTIBIOTICS------------------------------------------- //
@@ -1490,7 +1490,7 @@ const productCatalog = [
     category: "cardiovascular",
     description: "3X10  ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains: Amlodipine Besylate	BP",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/cardiovascular/3.jpg"],
     price: 39.99,
   },
   {
