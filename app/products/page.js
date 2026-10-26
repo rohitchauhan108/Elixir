@@ -97,7 +97,17 @@ export default function ProductsPage() {
         />
 
         {/* Heading */}
-        <h2 className="relative z-10 text-3xl font-bold mb-2">{title}</h2>
+        <h2 className="relative z-10 text-3xl font-bold leading-tight mb-2">
+          {category === "tablets" ? (
+            <>
+              Phosphodiesterase-5 Inhibitor
+              <br />
+              [Erectile Dysfunction]
+            </>
+          ) : (
+            title
+          )}
+        </h2>
 
         {/* Right decorative image */}
         <img
