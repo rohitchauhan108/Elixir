@@ -91,6 +91,8 @@ export default function AllProducts() {
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "medical-devices"
                         ? "Medical Devices & Other Products"
+                        : product.category === "anti-hyperlipidemic"
+                          ? "Anti-Hyperlipidemic"
                         : product.category.charAt(0).toUpperCase() +
                           product.category.slice(1)}
                   </p>

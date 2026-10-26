@@ -24,6 +24,12 @@ export const categories = [
     buttonLink: "/products?category=test-card",
   },
   {
+    title: "Anti-Hyperlipidemic",
+    slug: "anti-hyperlipidemic",
+    img: "/products/cardiovascular/1.webp",
+    buttonLink: "/products?category=anti-hyperlipidemic",
+  },
+  {
     title: "EYE/EAR & NASAL DROPS",
     slug: "eye-ear-and-nasal-drops",
     img: "/Assets/no-img.jpg",

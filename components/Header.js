@@ -29,6 +29,10 @@ export default function Header() {
     { name: "Antibiotics", href: "/products?category=antibiotics" },
     { name: "Antidiabetics", href: "/products?category=antidiabetic" },
     { name: "Cardio-Vascular", href: "/products?category=cardiovascular" },
+    {
+      name: "Anti-Hyperlipidemic",
+      href: "/products?category=anti-hyperlipidemic",
+    },
     { name: "Analgesics", href: "/products?category=analgesics" },
     {
       name: "EYE/EAR & NASAL DROPS",
@@ -159,6 +163,12 @@ export default function Header() {
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Cardio-Vascular
+                        </Link>
+                        <Link
+                          href="/products?category=anti-hyperlipidemic"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Anti-Hyperlipidemic
                         </Link>
                         <Link
                           href="/products?category=analgesics"

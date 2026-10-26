@@ -1557,7 +1557,7 @@ const productCatalog = [
     id: "153",
     title: "TOCARDFAR-20 TAB.",
     slug: "tocardfar-20-tab",
-    category: "cardiovascular",
+    category: "anti-hyperlipidemic",
     description: "3X10  ALU-ALU + INSERT",
     ingredient:
       "Each film coated tablet contains: Atorvastatin Calcium BP 20 mg. Eq. to Atorvastatin",
@@ -1568,7 +1568,7 @@ const productCatalog = [
     id: "154",
     title: "ROSUFAR-20 TAB.",
     slug: "rosufar-20-tab",
-    category: "cardiovascular",
+    category: "anti-hyperlipidemic",
     description: "3X10  ALU-ALU + INSERT",
     ingredient:
       "Each film coated tablet contains:Rosuvastatin Calcium BP 20mg. Eq. to Rosuvastatin",
@@ -1724,7 +1724,7 @@ const productCatalog = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Each ml contains :Carboxymethylcellulose Sodium B.P. 10 mg, Stabilized Oxychloro Complex B.P. 0.075mg, Aqueous Buffered Vehicle  q.s.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/eye-and-ear/4.webp"],
     price: 0,
   },
   {
@@ -1757,7 +1757,7 @@ const productCatalog = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition:Each ml contains :Timolol Maleate Eq.to Timolol  B.P. 5 mg, Benzalkonium Chloride  B.P.  0.01%w/v (as Preservative)",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/eye-and-ear/1.png"],
     price: 0,
   },
   {
@@ -1768,7 +1768,7 @@ const productCatalog = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition :Prednisolone acetate  B.P.  1.0%w/v, Benzalkonium Chloride B.P.  0.02%wv,   (As preservative) Sterile Aqueous base   q.s.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/eye-and-ear/2.png"],
     price: 0,
   },
   {
@@ -1868,7 +1868,7 @@ const productCatalog = [
     description: "20ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Piperacillin Sodium B.P. Eq.to Piperacillin  4000mg., Sterile Tazobactam Sodium B.P.Eq.to Anhydrous Tazobactam  500mg.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/products/injectables/1.png"],
     price: 0,
   },
   {
@@ -3691,10 +3691,47 @@ const productCatalog = [
   },
 ];
 
-export const products = productCatalog.map((product) => ({
+const productsWithDescriptions = productCatalog.map((product) => ({
   ...product,
   description:
     product.description === genericProductDescription
       ? `Product information for ${product.title} is available on request.`
       : product.description,
 }));
+
+const nonMedicineCategories = new Set([
+  "medical-devices",
+  "surgical",
+  "test-card",
+]);
+const imagePriorityCategories = [
+  ...new Set(productsWithDescriptions.map((product) => product.category)),
+].filter((category) => !nonMedicineCategories.has(category));
+const productsByPriorityCategory = new Map(
+  imagePriorityCategories.map((category) => [
+    category,
+    productsWithDescriptions
+      .filter((product) => product.category === category)
+      .sort((a, b) => {
+        const aHasImage = a.images?.some(
+          (image) => image && image !== "/Assets/no-img.jpg",
+        );
+        const bHasImage = b.images?.some(
+          (image) => image && image !== "/Assets/no-img.jpg",
+        );
+        return Number(bHasImage) - Number(aHasImage);
+      }),
+  ]),
+);
+const productIndexesByCategory = new Map(
+  imagePriorityCategories.map((category) => [category, 0]),
+);
+
+export const products = productsWithDescriptions.map((product) => {
+  const categoryProducts = productsByPriorityCategory.get(product.category);
+  if (!categoryProducts) return product;
+
+  const productIndex = productIndexesByCategory.get(product.category);
+  productIndexesByCategory.set(product.category, productIndex + 1);
+  return categoryProducts[productIndex];
+});

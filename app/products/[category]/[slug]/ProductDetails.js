@@ -42,12 +42,12 @@ export default function ProductDetails({ product }) {
       <div className="md:flex md:gap-10 bg-white p-10 rounded-xl">
         {/* Left Side: Images */}
         <div className="md:w-1/2">
-          <div className="relative w-full h-52 md:h-[300px] mb-3 border rounded-lg overflow-hidden shadow-sm">
+          <div className="group relative w-full h-52 md:h-[300px] mb-3 border rounded-lg overflow-hidden shadow-sm cursor-zoom-in">
             <Image
               src={mainImage}
               alt={product.title}
               fill
-              className="lg:object-cover object-contain transition duration-500 ease-in-out"
+              className="lg:object-cover object-contain transition duration-500 ease-in-out group-hover:scale-110"
             />
           </div>
 
@@ -86,6 +86,8 @@ export default function ProductDetails({ product }) {
                 ? "Surgical Products"
                 : product.category === "test-card"
                 ? "Test Cards And Test Strips"
+                : product.category === "anti-hyperlipidemic"
+                ? "Anti-Hyperlipidemic"
                 : product.category === "eye-ear-and-nasal-drops"
                 ? "EYE/EAR & NASAL DROPS"
                 : product.category === "injectable-antibiotic"
