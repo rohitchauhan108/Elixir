@@ -2683,17 +2683,17 @@ const productCatalog = [
     images: ["/products/ointment/6.jpg"],
     price: 0,
   },
-  {
-    id: "358",
-    title: "BURNFAR OINT.",
-    slug: "burnfar-oint",
-    category: "ointment",
-    description: "20 GM",
-    ingredient:
-      "Silver Nitrate BP 0.20% w/w, Chlorhexidine Gluconate Solution BP 0.20% w/w, Preservative: Chlorocresol BP 0.12% w/w",
-    images: ["/products/ointment/8.jpg"],
-    price: 0,
-  },
+  // {
+  //   id: "358",
+  //   title: "BURNFAR OINT.",
+  //   slug: "burnfar-oint",
+  //   category: "ointment",
+  //   description: "20 GM",
+  //   ingredient:
+  //     "Silver Nitrate BP 0.20% w/w, Chlorhexidine Gluconate Solution BP 0.20% w/w, Preservative: Chlorocresol BP 0.12% w/w",
+  //   images: ["/products/ointment/8.jpg"],
+  //   price: 0,
+  // },
   {
     id: "359",
     title: "CORTIFAR OINT.",
@@ -2704,17 +2704,17 @@ const productCatalog = [
     images: ["/products/ointment/7.jpg"],
     price: 0,
   },
-  {
-    id: "360",
-    title: "CLOTRIFAR-B OINT.",
-    slug: "clotrifar-b-oint",
-    category: "ointment",
-    description: "20 GM",
-    ingredient:
-      "Clotrimazole BP 1% w/w, Beclomethasone Dipropionate BP 0.025% w/w",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
+  // {
+  //   id: "360",
+  //   title: "CLOTRIFAR-B OINT.",
+  //   slug: "clotrifar-b-oint",
+  //   category: "ointment",
+  //   description: "20 GM",
+  //   ingredient:
+  //     "Clotrimazole BP 1% w/w, Beclomethasone Dipropionate BP 0.025% w/w",
+  //   images: ["/Assets/no-img.jpg"],
+  //   price: 0,
+  // },
 
   //--------------------------------------- ONCOLOGY CAPSULES ----------------------------------------//
   {
