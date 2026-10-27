@@ -19,7 +19,15 @@ export default function ProductsPage() {
   // Pagination setup
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12;
-  const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+  const pagesBeforeMerge = Math.ceil(
+    filteredProducts.length / productsPerPage,
+  );
+  const remainingProducts = filteredProducts.length % productsPerPage;
+  const mergeFinalPage =
+    pagesBeforeMerge > 1 &&
+    remainingProducts > 0 &&
+    remainingProducts < 3;
+  const totalPages = pagesBeforeMerge - Number(mergeFinalPage);
 
   // Reset to page 1 when category changes
   useEffect(() => {
@@ -28,7 +36,10 @@ export default function ProductsPage() {
 
   // Get products for current page
   const startIndex = (currentPage - 1) * productsPerPage;
-  const endIndex = startIndex + productsPerPage;
+  const endIndex =
+    mergeFinalPage && currentPage === totalPages
+      ? filteredProducts.length
+      : startIndex + productsPerPage;
   const currentProducts = filteredProducts.slice(startIndex, endIndex);
 
   // Dynamic title
