@@ -60,7 +60,7 @@ export default function Header() {
     },
     { name: "Nutraceutical product", href: "#" },
     { name: "Otc product", href: "#" },
-    { name: "Cosmetic product", href: "#" },
+    { name: "Cosmetic product", href: "/products?category=cosmetics" },
     { name: "Surgical Products", href: "/products?category=surgical" },
     {
       name: "Orthopaedics products",

@@ -6,6 +6,12 @@ export const categories = [
     buttonLink: "/products?category=ayurvedic",
   },
   {
+    title: "Cosmetic Products",
+    slug: "cosmetics",
+    img: "/Assets/product-img/Cosmetics.jpeg",
+    buttonLink: "/products?category=cosmetics",
+  },
+  {
     title: "Medical Devices",
     slug: "medical-devices",
     img: "/Assets/no-img.jpg",

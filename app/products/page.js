@@ -46,6 +46,8 @@ export default function ProductsPage() {
   const title = category
     ? category === "ayurvedic"
       ? "Ayurvedic & Herbal Products"
+      : category === "cosmetics"
+        ? "Cosmetic Products"
       : category === "medical-devices"
         ? "Medical Devices"
         : category === "orthopaedics"
@@ -160,6 +162,8 @@ export default function ProductsPage() {
                   <p className="text-sm text-[#B3CB02] font-semibold mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
+                      : product.category === "cosmetics"
+                        ? "Cosmetic Products"
                       : product.category === "medical-devices"
                         ? "Medical Devices"
                         : product.category === "orthopaedics"

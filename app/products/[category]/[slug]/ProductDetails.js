@@ -105,6 +105,8 @@ export default function ProductDetails({ product }) {
             <p className="text-sm font-semibold text-[#B3CB02] mb-4">
               {product.category === "ayurvedic"
                 ? "Ayurvedic & Herbal Products"
+                : product.category === "cosmetics"
+                ? "Cosmetic Products"
                 : product.category === "medical-devices"
                 ? "Medical Devices"
                 : product.category === "orthopaedics"
@@ -174,6 +176,8 @@ export default function ProductDetails({ product }) {
                   ← Back to{" "}
                   {product.category === "ayurvedic"
                     ? "Ayurvedic"
+                    : product.category === "cosmetics"
+                    ? "Cosmetic"
                     : product.category === "orthopaedics"
                     ? "Orthopaedics"
                     : "Medical Devices"}{" "}
