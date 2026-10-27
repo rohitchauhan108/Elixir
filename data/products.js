@@ -721,7 +721,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/oxygen-mask.jpeg"],
+    images: ["/surgical-products/oxygen-mask.webp"],
     price: 39.99,
   },
   {
@@ -731,7 +731,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/oxygen-mask.jpeg"],
+    images: ["/surgical-products/oxygen-mask.webp"],
     price: 39.99,
   },
   {
@@ -741,7 +741,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/blood-set.jpeg"],
+    images: ["/surgical-products/blood-set.webp"],
     price: 39.99,
   },
   {
@@ -761,7 +761,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -771,7 +771,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -781,7 +781,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -791,7 +791,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -801,7 +801,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/suction.jpeg"],
+    images: ["/surgical-products/suction.webp"],
     price: 39.99,
   },
   {
@@ -811,7 +811,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/suction.jpeg"],
+    images: ["/surgical-products/suction.webp"],
     price: 39.99,
   },
   {
@@ -821,7 +821,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/suction.jpeg"],
+    images: ["/surgical-products/suction.webp"],
     price: 39.99,
   },
   {
@@ -851,7 +851,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/intra-18.jpg"],
+    images: ["/surgical-products/intra-18.webp"],
     price: 39.99,
   },
   {
@@ -861,7 +861,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/intra-20.png"],
+    images: ["/surgical-products/intra-20.webp"],
     price: 39.99,
   },
   {
@@ -871,7 +871,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/intra-22.png"],
+    images: ["/surgical-products/intra-22.webp"],
     price: 39.99,
   },
   {
@@ -881,7 +881,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/needle-18.png"],
+    images: ["/surgical-products/needle-18.webp"],
     price: 39.99,
   },
   {
@@ -891,7 +891,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/needle-18.png"],
+    images: ["/surgical-products/needle-18.webp"],
     price: 39.99,
   },
   {
@@ -901,7 +901,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/needle-18.png"],
+    images: ["/surgical-products/needle-18.webp"],
     price: 39.99,
   },
   {
@@ -911,7 +911,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -921,7 +921,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -931,7 +931,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -941,7 +941,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -951,7 +951,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/giving-set.png"],
+    images: ["/surgical-products/giving-set.webp"],
     price: 39.99,
   },
   {
@@ -961,7 +961,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/giving-set.png"],
+    images: ["/surgical-products/giving-set.webp"],
     price: 39.99,
   },
   {
@@ -971,7 +971,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/paraffin.jpg"],
+    images: ["/surgical-products/paraffin.webp"],
     price: 39.99,
   },
   {
@@ -991,7 +991,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/colostomy.jpeg"],
+    images: ["/surgical-products/colostomy.webp"],
     price: 39.99,
   },
   {
@@ -1001,7 +1001,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/yankaur.jpeg"],
+    images: ["/surgical-products/yankaur.webp"],
     price: 39.99,
   },
   {
@@ -1011,7 +1011,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/nasal.jpg"],
+    images: ["/surgical-products/nasal.webp"],
     price: 39.99,
   },
   {
@@ -1101,7 +1101,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/ultrasound-gel.jpg"],
+    images: ["/surgical-products/ultrasound-gel.webp"],
     price: 39.99,
   },
   {
@@ -1171,7 +1171,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/crutches.jpg"],
+    images: ["/surgical-products/crutches.webp"],
     price: 39.99,
   },
   {
@@ -1181,7 +1181,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/corn-cap.png"],
+    images: ["/surgical-products/corn-cap.webp"],
     price: 39.99,
   },
   {
@@ -1253,7 +1253,7 @@ const productCatalog = [
       "High-quality fiberglass casting tape designed for orthopedic applications, offering superior strength and lightweight support.",
     ingredient:
       "Made with durable fiberglass material ensuring quick setting and optimal patient comfort.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1264,7 +1264,7 @@ const productCatalog = [
     description:
       "Reliable fiberglass casting tape suitable for immobilization and fracture treatment, providing excellent moldability and strength.",
     ingredient: "Composed of high-grade fiberglass fibers for medical use.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1275,7 +1275,7 @@ const productCatalog = [
     description:
       "Durable fiberglass casting tape ideal for orthopedic support, ensuring lightweight comfort and fast setting time.",
     ingredient: "Premium fiberglass mesh material for long-lasting casts.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1287,7 +1287,7 @@ const productCatalog = [
       "Fiberglass casting tape offering excellent strength, comfort, and easy application for various medical treatments.",
     ingredient:
       "Constructed from strong fiberglass composite suitable for clinical use.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1308,7 +1308,7 @@ const productCatalog = [
     category: "surgical",
     description: "21G",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/scalp.webp"],
     price: 0,
   },
   {
@@ -1318,7 +1318,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size M",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1328,7 +1328,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size L",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1338,7 +1338,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size XL",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1348,7 +1348,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size XXL",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1358,7 +1358,7 @@ const productCatalog = [
     category: "surgical",
     description: "10 cm",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/bandage.webp"],
     price: 0,
   },
   {
@@ -1368,7 +1368,7 @@ const productCatalog = [
     category: "surgical",
     description: "15 cm",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/bandage.webp"],
     price: 0,
   },
   {
@@ -1378,7 +1378,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/flip.webp"],
     price: 0,
   },
   {
@@ -1388,7 +1388,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/power-droll.webp"],
     price: 0,
   },
   {
@@ -1398,7 +1398,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/feeding-bag.webp"],
     price: 0,
   },
   {
@@ -1408,57 +1408,17 @@ const productCatalog = [
     category: "surgical",
     description: "Sizes L / XL",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/pad.webp"],
     price: 0,
   },
   {
     id: "371",
-    title: "RYLES TUBE NO. 10",
-    slug: "ryles-tube-no-10",
+    title: "RYLES TUBE",
+    slug: "ryles-tube",
     category: "surgical",
     description: "No. 10",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "372",
-    title: "RYLES TUBE NO. 12",
-    slug: "ryles-tube-no-12",
-    category: "surgical",
-    description: "No. 12",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "373",
-    title: "RYLES TUBE NO. 14",
-    slug: "ryles-tube-no-14",
-    category: "surgical",
-    description: "No. 14",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "374",
-    title: "RYLES TUBE NO. 16",
-    slug: "ryles-tube-no-16",
-    category: "surgical",
-    description: "No. 16",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "375",
-    title: "RYLES TUBE NO. 18",
-    slug: "ryles-tube-no-18",
-    category: "surgical",
-    description: "No. 18",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/ryles.webp"],
     price: 0,
   },
   {
@@ -1468,7 +1428,7 @@ const productCatalog = [
     category: "surgical",
     description: "4 inch",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/soft-roll.webp"],
     price: 0,
   },
   {
@@ -1478,7 +1438,7 @@ const productCatalog = [
     category: "surgical",
     description: "6 inch",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/soft-roll.webp"],
     price: 0,
   },
   {
@@ -1488,7 +1448,7 @@ const productCatalog = [
     category: "surgical",
     description: "1 ml",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/insulin.webp"],
     price: 0,
   },
   {
@@ -1498,7 +1458,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/prnfine.webp"],
     price: 0,
   },
   {
@@ -1508,39 +1468,39 @@ const productCatalog = [
     category: "surgical",
     description: "1 x 100",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/gauze.webp"],
     price: 0,
   },
-  {
-    id: "381",
-    title: "NEEDLE NO. 16",
-    slug: "needle-no-16",
-    category: "surgical",
-    description: "No. 16",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "382",
-    title: "NEEDLE NO. 21",
-    slug: "needle-no-21",
-    category: "surgical",
-    description: "No. 21",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "383",
-    title: "NEEDLE NO. 26",
-    slug: "needle-no-26",
-    category: "surgical",
-    description: "No. 26",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
+  // {
+  //   id: "381",
+  //   title: "NEEDLE NO. 16",
+  //   slug: "needle-no-16",
+  //   category: "surgical",
+  //   description: "No. 16",
+  //   ingredient: "",
+  //   images: ["/Assets/no-img.jpg"],
+  //   price: 0,
+  // },
+  // {
+  //   id: "382",
+  //   title: "NEEDLE NO. 21",
+  //   slug: "needle-no-21",
+  //   category: "surgical",
+  //   description: "No. 21",
+  //   ingredient: "",
+  //   images: ["/Assets/no-img.jpg"],
+  //   price: 0,
+  // },
+  // {
+  //   id: "383",
+  //   title: "NEEDLE NO. 26",
+  //   slug: "needle-no-26",
+  //   category: "surgical",
+  //   description: "No. 26",
+  //   ingredient: "",
+  //   images: ["/Assets/no-img.jpg"],
+  //   price: 0,
+  // },
   {
     id: "384",
     title: "PIGTAILS CATHETER NO. 6F TO 18FR",
@@ -1548,7 +1508,7 @@ const productCatalog = [
     category: "surgical",
     description: "No. 6F to 18FR",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/pigtails.webp"],
     price: 0,
   },
   {
@@ -1558,7 +1518,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/biopsy-needle.webp"],
     price: 0,
   },
   {
@@ -1568,7 +1528,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/stool-container.webp"],
     price: 0,
   },
   {
@@ -1578,7 +1538,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/edta.webp"],
     price: 0,
   },
   {
@@ -1588,17 +1548,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "389",
-    title: "MICROPIPETTE 4-5 VARIANTS",
-    slug: "micropipette-4-5-variants",
-    category: "surgical",
-    description: "4-5 variants",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/capillary.webp"],
     price: 0,
   },
   {
@@ -1608,17 +1558,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
-    price: 0,
-  },
-  {
-    id: "391",
-    title: "NG TUBE (ALL SIZES)",
-    slug: "ng-tube-all-sizes",
-    category: "surgical",
-    description: "All sizes",
-    ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/abdominal.webp"],
     price: 0,
   },
   {
@@ -1628,7 +1568,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/surgical.webp"],
     price: 0,
   },
   {
@@ -1638,7 +1578,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/suction-bulb.webp"],
     price: 0,
   },
   {
@@ -1648,7 +1588,7 @@ const productCatalog = [
     category: "surgical",
     description: "Pediatric",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/rebreath-mask.webp"],
     price: 0,
   },
   {
@@ -1658,7 +1598,7 @@ const productCatalog = [
     category: "surgical",
     description: "Pediatric",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/pedia-drip.webp"],
     price: 0,
   },
   {
@@ -1668,7 +1608,7 @@ const productCatalog = [
     category: "surgical",
     description: "Sizes 0-6",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/anathesia-mask.webp"],
     price: 0,
   },
   {
@@ -1678,7 +1618,7 @@ const productCatalog = [
     category: "surgical",
     description: "Sizes 1-6",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/laryngeal-mask.webp"],
     price: 0,
   },
   {
@@ -1688,7 +1628,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/surgical-products/suction-pump.webp"],
     price: 0,
   },
   //------------------------------------- ANTIBIOTICS------------------------------------------- //
@@ -1880,7 +1820,7 @@ const productCatalog = [
     category: "cardiovascular",
     description: "3X10  ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains: Amlodipine Besylate	BP",
-    images: ["/products/cardiovascular/3.jpg"],
+    images: ["/products/cardiovascular/3.webp"],
     price: 39.99,
   },
   {
@@ -2147,7 +2087,7 @@ const productCatalog = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition:Each ml contains :Timolol Maleate Eq.to Timolol  B.P. 5 mg, Benzalkonium Chloride  B.P.  0.01%w/v (as Preservative)",
-    images: ["/products/eye-and-ear/1.png"],
+    images: ["/products/eye-and-ear/5.webp"],
     price: 0,
   },
   {
@@ -2158,7 +2098,7 @@ const productCatalog = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition :Prednisolone acetate  B.P.  1.0%w/v, Benzalkonium Chloride B.P.  0.02%wv,   (As preservative) Sterile Aqueous base   q.s.",
-    images: ["/products/eye-and-ear/2.png"],
+    images: ["/products/eye-and-ear/6.webp"],
     price: 0,
   },
   {
@@ -2258,7 +2198,7 @@ const productCatalog = [
     description: "20ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Piperacillin Sodium B.P. Eq.to Piperacillin  4000mg., Sterile Tazobactam Sodium B.P.Eq.to Anhydrous Tazobactam  500mg.",
-    images: ["/products/injectables/1.png"],
+    images: ["/products/injectables/10.webp"],
     price: 0,
   },
   {
@@ -2433,7 +2373,7 @@ const productCatalog = [
     description:
       "10X1X1 BLISTER (MONO CARTON 1X1) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains: Levonorgestrel	BP	1.5 mg",
-    images: ["/products/Phosphodiesterase/4.jpg"],
+    images: ["/products/Phosphodiesterase/4.webp"],
     price: 0,
   },
   {
@@ -2444,7 +2384,7 @@ const productCatalog = [
     description:
       "10X1X1 BLISTER (MONO CARTON 1X1) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains: Levonorgestrel	BP	1.5 mg",
-    images: ["/products/Phosphodiesterase/1.jpg"],
+    images: ["/products/Phosphodiesterase/1.webp"],
     price: 0,
   },
   {
@@ -2455,7 +2395,7 @@ const productCatalog = [
     description:
       "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each  Uncoated tablet contains:Misoprostol BP 200mcg.",
-    images: ["/products/Phosphodiesterase/5.jpg"],
+    images: ["/products/Phosphodiesterase/5.webp"],
     price: 0,
   },
   {
@@ -2465,7 +2405,7 @@ const productCatalog = [
     category: "tablets",
     description: "10X1X4 BLISTER WITH OUTER",
     ingredient: "Each film coated tablet contains:Tadalafil	BP	20 mg.",
-    images: ["/products/Phosphodiesterase/3.jpg"],
+    images: ["/products/Phosphodiesterase/3.webp"],
     price: 0,
   },
   {
@@ -2476,7 +2416,7 @@ const productCatalog = [
     description:
       "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains:Sildenafil Citrate	BP	100 mg.",
-    images: ["/products/Phosphodiesterase/2.jpg"],
+    images: ["/products/Phosphodiesterase/2.webp"],
     price: 0,
   },
   {
@@ -2736,7 +2676,7 @@ const productCatalog = [
     description: "100ML OUTER + INSERT WITH DOSE CAP",
     ingredient:
       "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  125mg.",
-    images: ["/products/liquid-syp/3.jpg"],
+    images: ["/products/liquid-syp/13.webp"],
     price: 0,
   },
   {
@@ -2747,7 +2687,7 @@ const productCatalog = [
     description: "100ML OUTER + INSERT WITH DOSE CAP",
     ingredient:
       "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  250mg.",
-    images: ["/products/liquid-syp/2.jpg"],
+    images: ["/products/liquid-syp/10.webp"],
     price: 0,
   },
   {
@@ -2758,7 +2698,7 @@ const productCatalog = [
     description: "60ML/100 ML WITH WFI + INSERT",
     ingredient:
       "Amoxycillin Trihydrate  BP 125mg Potassium Clavulanate BP 31.5mg.",
-    images: ["/products/liquid-syp/1.jpg"],
+    images: ["/products/liquid-syp/9.webp"],
     price: 0,
   },
   // {
@@ -2844,7 +2784,7 @@ const productCatalog = [
     description: "200ML WITH OUTER + INSERT",
     ingredient:
       "Each 15 ml contains Cyproheptadine HCL  BP  2mg, Vitamin A (as Palmitate)  BP  1500IU, Vitamin D3  BP  300IU, Thiamine HCL (Vit B1) BP 5mg, Riboflavin  BP 2.2mg, Pyridoxine HCL (Vit B6)  BP  5mg, Cyanocobalamin  BP  5mcg, Dexpanthenol   BP 25mg. ",
-    images: ["/products/liquid-syp/11.jpg"],
+    images: ["/products/liquid-syp/11.webp"],
     price: 0,
   },
   {
@@ -2854,7 +2794,7 @@ const productCatalog = [
     category: "liquid-dry-syp",
     description: "100 ML WITH OUTER, DOSE CAP + INSERT",
     ingredient: "Each 5 ml contains Paracetamol BP 125 mg",
-    images: ["/products/liquid-syp/5.jpg"],
+    images: ["/products/liquid-syp/12.webp"],
     price: 0,
   },
   {
@@ -2973,7 +2913,7 @@ const productCatalog = [
     category: "ointment",
     description: "30 Gm. with Outer Box  +Insert",
     ingredient: "Clotrimazole B.P. 1%w/w, In water miscible base q.s.",
-    images: ["/products/ointment/5.jpg"],
+    images: ["/products/ointment/5.webp"],
     price: 0,
   },
   {
@@ -3059,7 +2999,7 @@ const productCatalog = [
     description: "30 GM",
     ingredient:
       "Diclofenac Diethylamine BP 1.16% w/w, equivalent to Diclofenac Sodium BP 1.00% w/w, Linseed Oil BP 3.00% w/w, Methyl Salicylate BP 10.00% w/w, Menthol BP 5.00% w/w, Benzyl Alcohol BP 1.00% w/w",
-    images: ["/products/ointment/9.png"],
+    images: ["/products/ointment/9.webp"],
     price: 0,
   },
   {
@@ -3070,7 +3010,7 @@ const productCatalog = [
     description: "20 GM",
     ingredient:
       "Benzoic Acid BP 9.95% w/w, Salicylic Acid BP 10% w/w, Thymol BP 0.5% w/w",
-    images: ["/products/ointment/6.jpg"],
+    images: ["/products/ointment/6.webp"],
     price: 0,
   },
   // {
@@ -3091,7 +3031,7 @@ const productCatalog = [
     category: "ointment",
     description: "30 GM",
     ingredient: "Hydrocortisone BP 1% w/w",
-    images: ["/products/ointment/7.jpg"],
+    images: ["/products/ointment/7.webp"],
     price: 0,
   },
   // {
