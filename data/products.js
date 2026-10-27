@@ -298,7 +298,7 @@ const productCatalog = [
     category: "medical-devices",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/medical-products/ecg.webp"],
     price: 39.99,
   },
   {
@@ -308,7 +308,7 @@ const productCatalog = [
     category: "medical-devices",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/medical-products/fleet.webp"],
     price: 39.99,
   },
   {
@@ -328,7 +328,7 @@ const productCatalog = [
     category: "medical-devices",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/medical-products/ear-buds.webp"],
     price: 39.99,
   },
 
@@ -339,7 +339,7 @@ const productCatalog = [
     category: "medical-devices",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/medical-products/hot-water.webp"],
+    images: ["/medical-products/water-pad.webp"],
     price: 39.99,
   },
   {
@@ -379,7 +379,7 @@ const productCatalog = [
     category: "medical-devices",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/medical-products/water-pad.webp"],
     price: 39.99,
   },
   {
@@ -389,7 +389,7 @@ const productCatalog = [
     category: "medical-devices",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/medical-products/four-legs.webp"],
     price: 39.99,
   },
   //---------------------------------------- Test Cards And Test Strips--------------------------- //
