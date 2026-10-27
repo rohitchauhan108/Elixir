@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { X } from "lucide-react";
 
 // Import both slider components
 import AyurvedicProducts from "@/components/Home/AyurvedicProducts";
@@ -32,8 +33,26 @@ import AllProducts from "@/components/Home/AllProducts";
 
 export default function ProductDetails({ product }) {
   const [mainImage, setMainImage] = useState(product.images[0]);
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   // const shortDescription =
   //   product.description.split(" ").slice(0, 20).join(" ") + "...";
+
+  useEffect(() => {
+    if (!isLightboxOpen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") setIsLightboxOpen(false);
+    };
+
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isLightboxOpen]);
 
   return (
     <section className="bg-[#e7ebee]">
@@ -41,13 +60,20 @@ export default function ProductDetails({ product }) {
       <div className="md:flex md:gap-10 bg-white p-10 rounded-xl">
         {/* Left Side: Images */}
         <div className="md:w-1/2">
-          <div className="group relative w-full h-52 md:h-[300px] mb-3 border rounded-lg overflow-hidden shadow-sm cursor-zoom-in">
-            <Image
-              src={mainImage}
-              alt={product.title}
-              fill
-              className="lg:object-cover object-contain transition duration-500 ease-in-out group-hover:scale-110"
-            />
+          <div className="group relative w-full h-52 md:h-[300px] mb-3 border rounded-lg overflow-hidden shadow-sm">
+            <button
+              type="button"
+              onClick={() => setIsLightboxOpen(true)}
+              aria-label={`View larger image of ${product.title}`}
+              className="absolute inset-0 h-full w-full cursor-zoom-in"
+            >
+              <Image
+                src={mainImage}
+                alt={product.title}
+                fill
+                className="object-contain transition duration-500 ease-in-out group-hover:scale-110"
+              />
+            </button>
           </div>
 
           {/* Thumbnails */}
@@ -80,7 +106,9 @@ export default function ProductDetails({ product }) {
               {product.category === "ayurvedic"
                 ? "Ayurvedic & Herbal Products"
                 : product.category === "medical-devices"
-                ? "Medical Devices & Other Products"
+                ? "Medical Devices"
+                : product.category === "orthopaedics"
+                ? "Orthopaedics Products"
                 : product.category === "surgical"
                 ? "Surgical Products"
                 : product.category === "test-card"
@@ -146,6 +174,8 @@ export default function ProductDetails({ product }) {
                   ← Back to{" "}
                   {product.category === "ayurvedic"
                     ? "Ayurvedic"
+                    : product.category === "orthopaedics"
+                    ? "Orthopaedics"
                     : "Medical Devices"}{" "}
                   Products
                 </button>
@@ -154,6 +184,37 @@ export default function ProductDetails({ product }) {
           </div>
         </div>
       </div>
+
+      {isLightboxOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${product.title} image`}
+          onClick={() => setIsLightboxOpen(false)}
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
+        >
+          <button
+            type="button"
+            onClick={() => setIsLightboxOpen(false)}
+            aria-label="Close image"
+            className="absolute right-4 top-4 z-10 rounded-full bg-white/10 p-2 text-white transition hover:bg-white/20"
+          >
+            <X size={28} />
+          </button>
+          <div
+            className="relative h-[85vh] w-full max-w-6xl"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <Image
+              src={mainImage}
+              alt={product.title}
+              fill
+              sizes="(max-width: 768px) 100vw, 90vw"
+              className="object-contain"
+            />
+          </div>
+        </div>
+      )}
 
       {/* Show slider based on category */}
       <div className="mt-10">

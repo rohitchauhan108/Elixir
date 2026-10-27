@@ -6,10 +6,16 @@ export const categories = [
     buttonLink: "/products?category=ayurvedic",
   },
   {
-    title: "Medical Devices & Other Products",
+    title: "Medical Devices",
     slug: "medical-devices",
     img: "/Assets/no-img.jpg",
     buttonLink: "/products?category=medical-devices",
+  },
+  {
+    title: "Orthopaedics Products",
+    slug: "orthopaedics",
+    img: "/Assets/no-img.jpg",
+    buttonLink: "/products?category=orthopaedics",
   },
   {
     title: "Surgical Products",

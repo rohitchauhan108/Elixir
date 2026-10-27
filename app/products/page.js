@@ -36,7 +36,9 @@ export default function ProductsPage() {
     ? category === "ayurvedic"
       ? "Ayurvedic & Herbal Products"
       : category === "medical-devices"
-        ? "Medical Devices & Other Products"
+        ? "Medical Devices"
+        : category === "orthopaedics"
+          ? "Orthopaedics Products"
         : category === "test-card"
           ? "Test Cards And Test Strips"
           : category === "surgical"
@@ -129,7 +131,7 @@ export default function ProductsPage() {
           currentProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-b-[30px] overflow-hidden shadow-white shadow-sm transition-all duration-500 hover:-translate-y-2 border-b-2 border-[#009136]"
+              className="group bg-white rounded-b-[30px] overflow-hidden shadow-white shadow-sm transition-all duration-500 hover:-translate-y-2 border-b-2 border-[#009136]"
             >
               {/* Product Image */}
               <div className="relative w-full h-[200px]">
@@ -137,18 +139,20 @@ export default function ProductsPage() {
                   src={product.images[0]}
                   alt={product.title}
                   fill
-                  className="object-content p-2"
+                  className="object-content object-contain p-2 transition-transform duration-500 group-hover:scale-125"
                 />
               </div>
 
               {/* Product Info */}
-              <div className="p-4 flex flex-col justify-between h-56 pb-5">
+              <div className="p-4 flex flex-col justify-between h-72 pb-5">
                 <div>
                   <p className="text-sm text-[#B3CB02] font-semibold mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "medical-devices"
-                        ? "Medical Devices & Other Products"
+                        ? "Medical Devices"
+                        : product.category === "orthopaedics"
+                          ? "Orthopaedics Products"
                         : product.category === "surgical"
                           ? "Surgical Products"
                           : product.category === "test-card"

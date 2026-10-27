@@ -16,7 +16,7 @@ export default function MedicalProducts() {
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center mb-8">
         <h2 className="text-3xl font-bold mb-2">
-          Medical Devices & Other Product
+          Medical Devices
         </h2>
         <Divider />
       </div>

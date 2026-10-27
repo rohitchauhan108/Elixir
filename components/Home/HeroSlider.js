@@ -94,7 +94,7 @@ export default function FeatureSection() {
           mt-6 sm:mt-10 md:-mt-20  /* only overlap on medium+ screens */
         "
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 rounded-lg">
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 rounded-lg">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -113,7 +113,7 @@ export default function FeatureSection() {
               </Link>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

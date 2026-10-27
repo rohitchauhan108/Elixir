@@ -83,7 +83,7 @@ export default function OurProducts() {
                 {/* Image */}
                 <div className="relative w-full h-48 overflow-hidden cursor-pointer">
                   <Link
-                    href={`/products/${cat.slug}`}
+                    href={cat.buttonLink}
                     className="block w-full h-full"
                   >
                     <Image
@@ -97,7 +97,7 @@ export default function OurProducts() {
 
                 {/* Title + Button */}
                 <div className="p-4 text-center">
-                  <Link href={`/products/${cat.slug}`} className="block">
+                  <Link href={cat.buttonLink} className="block">
                     <h3 className="text-lg font-semibold mb-3 cursor-pointer hover:text-[#009136] truncate">
                       {cat.title}
                     </h3>
