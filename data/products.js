@@ -1820,7 +1820,7 @@ const productCatalog = [
     category: "cardiovascular",
     description: "3X10  ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains: Amlodipine Besylate	BP",
-    images: ["/products/cardiovascular/3.jpg"],
+    images: ["/products/cardiovascular/3.webp"],
     price: 39.99,
   },
   {
@@ -2087,7 +2087,7 @@ const productCatalog = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition:Each ml contains :Timolol Maleate Eq.to Timolol  B.P. 5 mg, Benzalkonium Chloride  B.P.  0.01%w/v (as Preservative)",
-    images: ["/products/eye-and-ear/1.png"],
+    images: ["/products/eye-and-ear/5.webp"],
     price: 0,
   },
   {
@@ -2098,7 +2098,7 @@ const productCatalog = [
     description: "10 ML  WITH BOX & INSERT ",
     ingredient:
       "Composition :Prednisolone acetate  B.P.  1.0%w/v, Benzalkonium Chloride B.P.  0.02%wv,   (As preservative) Sterile Aqueous base   q.s.",
-    images: ["/products/eye-and-ear/2.png"],
+    images: ["/products/eye-and-ear/6.webp"],
     price: 0,
   },
   {
@@ -2198,7 +2198,7 @@ const productCatalog = [
     description: "20ml Vial. + WFIwith Insert(TRAY PACK)",
     ingredient:
       "Each vial contains:Sterile Piperacillin Sodium B.P. Eq.to Piperacillin  4000mg., Sterile Tazobactam Sodium B.P.Eq.to Anhydrous Tazobactam  500mg.",
-    images: ["/products/injectables/1.png"],
+    images: ["/products/injectables/10.webp"],
     price: 0,
   },
   {
@@ -2373,7 +2373,7 @@ const productCatalog = [
     description:
       "10X1X1 BLISTER (MONO CARTON 1X1) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains: Levonorgestrel	BP	1.5 mg",
-    images: ["/products/Phosphodiesterase/4.jpg"],
+    images: ["/products/Phosphodiesterase/4.webp"],
     price: 0,
   },
   {
@@ -2384,7 +2384,7 @@ const productCatalog = [
     description:
       "10X1X1 BLISTER (MONO CARTON 1X1) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains: Levonorgestrel	BP	1.5 mg",
-    images: ["/products/Phosphodiesterase/1.jpg"],
+    images: ["/products/Phosphodiesterase/1.webp"],
     price: 0,
   },
   {
@@ -2395,7 +2395,7 @@ const productCatalog = [
     description:
       "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each  Uncoated tablet contains:Misoprostol BP 200mcg.",
-    images: ["/products/Phosphodiesterase/5.jpg"],
+    images: ["/products/Phosphodiesterase/5.webp"],
     price: 0,
   },
   {
@@ -2405,7 +2405,7 @@ const productCatalog = [
     category: "tablets",
     description: "10X1X4 BLISTER WITH OUTER",
     ingredient: "Each film coated tablet contains:Tadalafil	BP	20 mg.",
-    images: ["/products/Phosphodiesterase/3.jpg"],
+    images: ["/products/Phosphodiesterase/3.webp"],
     price: 0,
   },
   {
@@ -2416,7 +2416,7 @@ const productCatalog = [
     description:
       "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
     ingredient: "Each film coated tablet contains:Sildenafil Citrate	BP	100 mg.",
-    images: ["/products/Phosphodiesterase/2.jpg"],
+    images: ["/products/Phosphodiesterase/2.webp"],
     price: 0,
   },
   {
@@ -2676,7 +2676,7 @@ const productCatalog = [
     description: "100ML OUTER + INSERT WITH DOSE CAP",
     ingredient:
       "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  125mg.",
-    images: ["/products/liquid-syp/3.jpg"],
+    images: ["/products/liquid-syp/13.webp"],
     price: 0,
   },
   {
@@ -2687,7 +2687,7 @@ const productCatalog = [
     description: "100ML OUTER + INSERT WITH DOSE CAP",
     ingredient:
       "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  250mg.",
-    images: ["/products/liquid-syp/2.jpg"],
+    images: ["/products/liquid-syp/10.webp"],
     price: 0,
   },
   {
@@ -2698,7 +2698,7 @@ const productCatalog = [
     description: "60ML/100 ML WITH WFI + INSERT",
     ingredient:
       "Amoxycillin Trihydrate  BP 125mg Potassium Clavulanate BP 31.5mg.",
-    images: ["/products/liquid-syp/1.jpg"],
+    images: ["/products/liquid-syp/9.webp"],
     price: 0,
   },
   // {
@@ -2784,7 +2784,7 @@ const productCatalog = [
     description: "200ML WITH OUTER + INSERT",
     ingredient:
       "Each 15 ml contains Cyproheptadine HCL  BP  2mg, Vitamin A (as Palmitate)  BP  1500IU, Vitamin D3  BP  300IU, Thiamine HCL (Vit B1) BP 5mg, Riboflavin  BP 2.2mg, Pyridoxine HCL (Vit B6)  BP  5mg, Cyanocobalamin  BP  5mcg, Dexpanthenol   BP 25mg. ",
-    images: ["/products/liquid-syp/11.jpg"],
+    images: ["/products/liquid-syp/11.webp"],
     price: 0,
   },
   {
@@ -2794,7 +2794,7 @@ const productCatalog = [
     category: "liquid-dry-syp",
     description: "100 ML WITH OUTER, DOSE CAP + INSERT",
     ingredient: "Each 5 ml contains Paracetamol BP 125 mg",
-    images: ["/products/liquid-syp/5.jpg"],
+    images: ["/products/liquid-syp/12.webp"],
     price: 0,
   },
   {
@@ -2913,7 +2913,7 @@ const productCatalog = [
     category: "ointment",
     description: "30 Gm. with Outer Box  +Insert",
     ingredient: "Clotrimazole B.P. 1%w/w, In water miscible base q.s.",
-    images: ["/products/ointment/5.jpg"],
+    images: ["/products/ointment/5.webp"],
     price: 0,
   },
   {
@@ -2999,7 +2999,7 @@ const productCatalog = [
     description: "30 GM",
     ingredient:
       "Diclofenac Diethylamine BP 1.16% w/w, equivalent to Diclofenac Sodium BP 1.00% w/w, Linseed Oil BP 3.00% w/w, Methyl Salicylate BP 10.00% w/w, Menthol BP 5.00% w/w, Benzyl Alcohol BP 1.00% w/w",
-    images: ["/products/ointment/9.png"],
+    images: ["/products/ointment/9.webp"],
     price: 0,
   },
   {
@@ -3010,7 +3010,7 @@ const productCatalog = [
     description: "20 GM",
     ingredient:
       "Benzoic Acid BP 9.95% w/w, Salicylic Acid BP 10% w/w, Thymol BP 0.5% w/w",
-    images: ["/products/ointment/6.jpg"],
+    images: ["/products/ointment/6.webp"],
     price: 0,
   },
   // {
@@ -3031,7 +3031,7 @@ const productCatalog = [
     category: "ointment",
     description: "30 GM",
     ingredient: "Hydrocortisone BP 1% w/w",
-    images: ["/products/ointment/7.jpg"],
+    images: ["/products/ointment/7.webp"],
     price: 0,
   },
   // {
