@@ -52,6 +52,7 @@ export default function Header() {
     // { name: "Home", href: "/" },
     // { name: "About", href: "/about" },
     // { name: "Products", href: "/products" },
+    { name: "Pharmaceutical Elixir Brand", href: "#" },
     {
       name: "Ayurvedic & Herbal Products",
       href: "/products?category=ayurvedic",
@@ -62,7 +63,7 @@ export default function Header() {
     },
     { name: "Surgical Products", href: "/products?category=surgical" },
     { name: "Test Cards & Test Strips", href: "/products?category=test-card" },
-    { name: "Medicines", href: "#" },
+    // { name: "Medicines", href: "#" },
   ];
 
   return (
@@ -127,7 +128,7 @@ export default function Header() {
             {/* Center: Navigation */}
             <nav className="hidden md:flex gap-[4px] mx-auto relative">
               {navigation.map((item) =>
-                item.name === "Medicines" ? (
+                item.name === "Pharmaceutical Elixir Brand" ? (
                   <div
                     key={item.name}
                     className="relative group"

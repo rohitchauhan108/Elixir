@@ -841,7 +841,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/cannula-fixator.webp"],
+    images: ["/surgical-products/cannula.webp"],
     price: 39.99,
   },
   {
@@ -1131,7 +1131,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/paper-tape.webp"],
+    images: ["/surgical-products/tape.webp"],
     price: 39.99,
   },
   {

@@ -129,7 +129,7 @@ export default function ProductsPage() {
           currentProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-b-[30px] overflow-hidden shadow-white shadow-sm transition-all duration-500 hover:-translate-y-2 border-b-2 border-[#009136]"
+              className="group bg-white rounded-b-[30px] overflow-hidden shadow-white shadow-sm transition-all duration-500 hover:-translate-y-2 border-b-2 border-[#009136]"
             >
               {/* Product Image */}
               <div className="relative w-full h-[200px]">
@@ -137,7 +137,7 @@ export default function ProductsPage() {
                   src={product.images[0]}
                   alt={product.title}
                   fill
-                  className="object-content p-2"
+                  className="object-content object-contain p-2 transition-transform duration-500 group-hover:scale-125"
                 />
               </div>
 
