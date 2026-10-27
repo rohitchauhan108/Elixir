@@ -721,7 +721,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/oxygen-mask.jpeg"],
+    images: ["/surgical-products/oxygen-mask.webp"],
     price: 39.99,
   },
   {
@@ -731,7 +731,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/oxygen-mask.jpeg"],
+    images: ["/surgical-products/oxygen-mask.webp"],
     price: 39.99,
   },
   {
@@ -741,7 +741,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/blood-set.jpeg"],
+    images: ["/surgical-products/blood-set.webp"],
     price: 39.99,
   },
   {
@@ -761,7 +761,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -771,7 +771,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -781,7 +781,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -791,7 +791,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/foley.jpeg"],
+    images: ["/surgical-products/foley.webp"],
     price: 39.99,
   },
   {
@@ -801,7 +801,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/suction.jpeg"],
+    images: ["/surgical-products/suction.webp"],
     price: 39.99,
   },
   {
@@ -811,7 +811,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/suction.jpeg"],
+    images: ["/surgical-products/suction.webp"],
     price: 39.99,
   },
   {
@@ -821,7 +821,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/suction.jpeg"],
+    images: ["/surgical-products/suction.webp"],
     price: 39.99,
   },
   {
@@ -851,7 +851,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/intra-18.jpg"],
+    images: ["/surgical-products/intra-18.webp"],
     price: 39.99,
   },
   {
@@ -861,7 +861,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/intra-20.png"],
+    images: ["/surgical-products/intra-20.webp"],
     price: 39.99,
   },
   {
@@ -871,7 +871,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/intra-22.png"],
+    images: ["/surgical-products/intra-22.webp"],
     price: 39.99,
   },
   {
@@ -881,7 +881,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/needle-18.png"],
+    images: ["/surgical-products/needle-18.webp"],
     price: 39.99,
   },
   {
@@ -891,7 +891,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/needle-18.png"],
+    images: ["/surgical-products/needle-18.webp"],
     price: 39.99,
   },
   {
@@ -901,7 +901,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/needle-18.png"],
+    images: ["/surgical-products/needle-18.webp"],
     price: 39.99,
   },
   {
@@ -911,7 +911,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -921,7 +921,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -931,7 +931,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -941,7 +941,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/syringe.jpeg"],
+    images: ["/surgical-products/syringe.webp"],
     price: 39.99,
   },
   {
@@ -951,7 +951,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/giving-set.png"],
+    images: ["/surgical-products/giving-set.webp"],
     price: 39.99,
   },
   {
@@ -961,7 +961,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/giving-set.png"],
+    images: ["/surgical-products/giving-set.webp"],
     price: 39.99,
   },
   {
@@ -971,7 +971,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/paraffin.jpg"],
+    images: ["/surgical-products/paraffin.webp"],
     price: 39.99,
   },
   {
@@ -991,7 +991,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/colostomy.jpeg"],
+    images: ["/surgical-products/colostomy.webp"],
     price: 39.99,
   },
   {
@@ -1001,7 +1001,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/yankaur.jpeg"],
+    images: ["/surgical-products/yankaur.webp"],
     price: 39.99,
   },
   {
@@ -1011,7 +1011,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/nasal.jpg"],
+    images: ["/surgical-products/nasal.webp"],
     price: 39.99,
   },
   {
@@ -1101,7 +1101,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/ultrasound-gel.jpg"],
+    images: ["/surgical-products/ultrasound-gel.webp"],
     price: 39.99,
   },
   {
@@ -1171,7 +1171,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/crutches.jpg"],
+    images: ["/surgical-products/crutches.webp"],
     price: 39.99,
   },
   {
@@ -1181,7 +1181,7 @@ const productCatalog = [
     category: "surgical",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
     ingredient: "Symptomatic relief of muscular aches and pain...",
-    images: ["/surgical-products/corn-cap.png"],
+    images: ["/surgical-products/corn-cap.webp"],
     price: 39.99,
   },
   {
@@ -1253,7 +1253,7 @@ const productCatalog = [
       "High-quality fiberglass casting tape designed for orthopedic applications, offering superior strength and lightweight support.",
     ingredient:
       "Made with durable fiberglass material ensuring quick setting and optimal patient comfort.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1264,7 +1264,7 @@ const productCatalog = [
     description:
       "Reliable fiberglass casting tape suitable for immobilization and fracture treatment, providing excellent moldability and strength.",
     ingredient: "Composed of high-grade fiberglass fibers for medical use.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1275,7 +1275,7 @@ const productCatalog = [
     description:
       "Durable fiberglass casting tape ideal for orthopedic support, ensuring lightweight comfort and fast setting time.",
     ingredient: "Premium fiberglass mesh material for long-lasting casts.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1287,7 +1287,7 @@ const productCatalog = [
       "Fiberglass casting tape offering excellent strength, comfort, and easy application for various medical treatments.",
     ingredient:
       "Constructed from strong fiberglass composite suitable for clinical use.",
-    images: ["/surgical-products/prime-cast.jpeg"],
+    images: ["/surgical-products/prime-cast.webp"],
     price: 39.99,
   },
   {
@@ -1318,7 +1318,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size M",
     ingredient: "",
-    images: ["/surgical-products/diaper.png"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1328,7 +1328,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size L",
     ingredient: "",
-    images: ["/surgical-products/diaper.png"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1338,7 +1338,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size XL",
     ingredient: "",
-    images: ["/surgical-products/diaper.png"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1348,7 +1348,7 @@ const productCatalog = [
     category: "surgical",
     description: "Size XXL",
     ingredient: "",
-    images: ["/surgical-products/diaper.png"],
+    images: ["/surgical-products/diaper.webp"],
     price: 0,
   },
   {
@@ -1388,7 +1388,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/power-droll.jpeg"],
+    images: ["/surgical-products/power-droll.webp"],
     price: 0,
   },
   {
@@ -1398,7 +1398,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/feeding-bag.jpeg"],
+    images: ["/surgical-products/feeding-bag.webp"],
     price: 0,
   },
   {
@@ -1408,7 +1408,7 @@ const productCatalog = [
     category: "surgical",
     description: "Sizes L / XL",
     ingredient: "",
-    images: ["/surgical-products/pad.jpeg"],
+    images: ["/surgical-products/pad.webp"],
     price: 0,
   },
   {
@@ -1418,7 +1418,7 @@ const productCatalog = [
     category: "surgical",
     description: "No. 10",
     ingredient: "",
-    images: ["/surgical-products/ryles.jpg"],
+    images: ["/surgical-products/ryles.webp"],
     price: 0,
   },
   {
@@ -1428,7 +1428,7 @@ const productCatalog = [
     category: "surgical",
     description: "4 inch",
     ingredient: "",
-    images: ["/surgical-products/soft-roll.jpg"],
+    images: ["/surgical-products/soft-roll.webp"],
     price: 0,
   },
   {
@@ -1438,7 +1438,7 @@ const productCatalog = [
     category: "surgical",
     description: "6 inch",
     ingredient: "",
-    images: ["/surgical-products/soft-roll.jpg"],
+    images: ["/surgical-products/soft-roll.webp"],
     price: 0,
   },
   {
@@ -1448,7 +1448,7 @@ const productCatalog = [
     category: "surgical",
     description: "1 ml",
     ingredient: "",
-    images: ["/surgical-products/insulin.jpg"],
+    images: ["/surgical-products/insulin.webp"],
     price: 0,
   },
   {
@@ -1458,7 +1458,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/prnfine.jpeg"],
+    images: ["/surgical-products/prnfine.webp"],
     price: 0,
   },
   {
@@ -1518,7 +1518,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/biopsy-needle.jpeg"],
+    images: ["/surgical-products/biopsy-needle.webp"],
     price: 0,
   },
   {
@@ -1528,7 +1528,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/stool-container.jpeg"],
+    images: ["/surgical-products/stool-container.webp"],
     price: 0,
   },
   {
@@ -1538,7 +1538,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/edta.png"],
+    images: ["/surgical-products/edta.webp"],
     price: 0,
   },
   {
@@ -1548,7 +1548,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/capillary.jpg"],
+    images: ["/surgical-products/capillary.webp"],
     price: 0,
   },
   {
@@ -1568,7 +1568,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/surgical.jpeg"],
+    images: ["/surgical-products/surgical.webp"],
     price: 0,
   },
   {
@@ -1578,7 +1578,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/suction-bulb.jpeg"],
+    images: ["/surgical-products/suction-bulb.webp"],
     price: 0,
   },
   {
@@ -1588,7 +1588,7 @@ const productCatalog = [
     category: "surgical",
     description: "Pediatric",
     ingredient: "",
-    images: ["/surgical-products/rebreath-mask.jpg"],
+    images: ["/surgical-products/rebreath-mask.webp"],
     price: 0,
   },
   {
@@ -1598,7 +1598,7 @@ const productCatalog = [
     category: "surgical",
     description: "Pediatric",
     ingredient: "",
-    images: ["/surgical-products/pedia-drip.jpeg"],
+    images: ["/surgical-products/pedia-drip.webp"],
     price: 0,
   },
   {
@@ -1608,7 +1608,7 @@ const productCatalog = [
     category: "surgical",
     description: "Sizes 0-6",
     ingredient: "",
-    images: ["/surgical-products/anathesia-mask.jpeg"],
+    images: ["/surgical-products/anathesia-mask.webp"],
     price: 0,
   },
   {
@@ -1618,7 +1618,7 @@ const productCatalog = [
     category: "surgical",
     description: "Sizes 1-6",
     ingredient: "",
-    images: ["/surgical-products/laryngeal-mask.jpeg"],
+    images: ["/surgical-products/laryngeal-mask.webp"],
     price: 0,
   },
   {
@@ -1628,7 +1628,7 @@ const productCatalog = [
     category: "surgical",
     description: "",
     ingredient: "",
-    images: ["/surgical-products/suction-pump.jpeg"],
+    images: ["/surgical-products/suction-pump.webp"],
     price: 0,
   },
   //------------------------------------- ANTIBIOTICS------------------------------------------- //
