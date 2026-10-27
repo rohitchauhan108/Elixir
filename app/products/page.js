@@ -36,7 +36,9 @@ export default function ProductsPage() {
     ? category === "ayurvedic"
       ? "Ayurvedic & Herbal Products"
       : category === "medical-devices"
-        ? "Medical Devices & Other Products"
+        ? "Medical Devices"
+        : category === "orthopaedics"
+          ? "Orthopaedics Products"
         : category === "test-card"
           ? "Test Cards And Test Strips"
           : category === "surgical"
@@ -142,13 +144,15 @@ export default function ProductsPage() {
               </div>
 
               {/* Product Info */}
-              <div className="p-4 flex flex-col justify-between h-56 pb-5">
+              <div className="p-4 flex flex-col justify-between h-72 pb-5">
                 <div>
                   <p className="text-sm text-[#B3CB02] font-semibold mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "medical-devices"
-                        ? "Medical Devices & Other Products"
+                        ? "Medical Devices"
+                        : product.category === "orthopaedics"
+                          ? "Orthopaedics Products"
                         : product.category === "surgical"
                           ? "Surgical Products"
                           : product.category === "test-card"

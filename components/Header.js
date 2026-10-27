@@ -53,16 +53,20 @@ export default function Header() {
     // { name: "About", href: "/about" },
     // { name: "Products", href: "/products" },
     { name: "Pharmaceutical Elixir Brand", href: "#" },
+
     {
       name: "Ayurvedic & Herbal Products",
       href: "/products?category=ayurvedic",
     },
-    {
-      name: "Medical & Other Product",
-      href: "/products?category=medical-devices",
-    },
+    { name: "Nutraceutical product", href: "#" },
+    { name: "Otc product", href: "#" },
+    { name: "Cosmetic product", href: "#" },
     { name: "Surgical Products", href: "/products?category=surgical" },
-    { name: "Test Cards & Test Strips", href: "/products?category=test-card" },
+    {
+      name: "Orthopaedics products",
+      href: "/products?category=orthopaedics",
+    },
+    { name: "Medical devices", href: "/products?category=medical-devices" },
     // { name: "Medicines", href: "#" },
   ];
 
@@ -135,7 +139,7 @@ export default function Header() {
                     onMouseEnter={() => setIsDropdownOpen(true)}
                     onMouseLeave={() => setIsDropdownOpen(false)}
                   >
-                    <button className="flex items-center text-gray-700 hover:text-[#0AA0DD] px-3 py-2 text-sm font-medium transition-colors duration-200">
+                    <button className="flex items-center text-gray-700 hover:text-[#0AA0DD] px-3 py-2 text-xs font-medium transition-colors duration-200">
                       {item.name}
                       <ChevronDown
                         size={16}
@@ -225,11 +229,11 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-gray-700 hover:text-[#0AA0DD] px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    className="text-gray-700 uppercase hover:text-[#0AA0DD] px-3 py-2 text-xs text-center font-medium transition-colors duration-200"
                   >
                     {item.name}
                   </a>
-                )
+                ),
               )}
             </nav>
 
@@ -238,7 +242,7 @@ export default function Header() {
               <Link href="/contact">
                 <button
                   className="bg-[#B3CB02] text-white px-4 py-2 rounded-md 
-        transform transition-transform duration-300 ease-in-out 
+        transform transition-transform duration-300 ease-in-out text-xs
         hover:scale-90 hover:bg-[#009136] mt-2"
                 >
                   Enquiry Now
@@ -264,7 +268,7 @@ export default function Header() {
           <div className="md:hidden bg-white border-t shadow-lg">
             <nav className="px-4 py-4 space-y-2 flex flex-col items-left">
               {navigation.map((item) =>
-                item.name === "Medicines" ? (
+                item.name === "Pharmaceutical Elixir Brand" ? (
                   <div key={item.name} className="w-full">
                     <button
                       onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -304,7 +308,7 @@ export default function Header() {
                   >
                     {item.name}
                   </a>
-                )
+                ),
               )}
 
               <Link href="/contact">
