@@ -4321,7 +4321,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "abdominal-belt-s-m-l-xl-xxl",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/orthopaedics-products/rib.webp"],
+    images: ["/orthopaedics-products/abdominal.webp"],
     price: 0,
   },
   {
@@ -4348,7 +4348,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "chest-binder",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/orthopaedics-products/rib.webp"],
+    images: ["/orthopaedics-products/chest-binder.webp"],
     price: 0,
   },
   {
@@ -4429,7 +4429,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "crepe-bandage-6-inch",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/orthopaedics-products/crepe.webp"],
     price: 0,
   },
   {
@@ -4438,7 +4438,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "elastic-adhesive-bandage-4-inch",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/orthopaedics-products/elastic.webp"],
     price: 0,
   },
   {
@@ -4447,7 +4447,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "elastic-adhesive-bandage-10-inch",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/orthopaedics-products/elastic.webp"],
     price: 0,
   },
   {
@@ -4456,7 +4456,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "stockinette-full-length-l-xl-xxl",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/orthopaedics-products/stockinette.webp"],
     price: 0,
   },
   {
@@ -4465,7 +4465,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "cervical-pillow-round",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/orthopaedics-products/cervical-pillow-round.webp"],
     price: 0,
   },
   {
@@ -4474,7 +4474,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "cervical-pillow-regular",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/orthopaedics-products/cervical-pillow-regular.webp"],
     price: 0,
   },
   {
@@ -4483,7 +4483,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "cervical-pillow-travel",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/orthopaedics-products/cervical-pillow-travel.webp"],
     price: 0,
   },
   {
@@ -4492,7 +4492,7 @@ const additionalOrthopaedicCategoryProducts = [
     slug: "universal-shoulder-immobiliser",
     category: "orthopaedics",
     description: genericProductDescription,
-    images: ["/orthopaedics-products/arm-sling.webp"],
+    images: ["/orthopaedics-products/universal.webp"],
     price: 0,
   },
 ];
