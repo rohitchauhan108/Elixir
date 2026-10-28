@@ -107,6 +107,8 @@ export default function ProductDetails({ product }) {
                 ? "Ayurvedic & Herbal Products"
                 : product.category === "cosmetics"
                 ? "Cosmetic Products"
+                : product.category === "otc-product"
+                ? "OTC Products"
                 : product.category === "medical-devices"
                 ? "Medical Devices"
                 : product.category === "orthopaedics"
@@ -178,6 +180,8 @@ export default function ProductDetails({ product }) {
                     ? "Ayurvedic"
                     : product.category === "cosmetics"
                     ? "Cosmetic"
+                    : product.category === "otc-product"
+                    ? "OTC"
                     : product.category === "orthopaedics"
                     ? "Orthopaedics"
                     : "Medical Devices"}{" "}
