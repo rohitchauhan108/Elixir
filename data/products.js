@@ -4063,7 +4063,7 @@ const additionalCosmeticProducts = [
     slug: "hand-sanitizer-100-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sanitizer.webp"],
     price: 0,
   },
   {
@@ -4072,7 +4072,7 @@ const additionalCosmeticProducts = [
     slug: "hand-sanitizer-250-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sanitizer.webp"],
     price: 0,
   },
   {
@@ -4081,7 +4081,7 @@ const additionalCosmeticProducts = [
     slug: "face-wash-men-150-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/face-wash.webp"],
     price: 0,
   },
   {
@@ -4090,7 +4090,7 @@ const additionalCosmeticProducts = [
     slug: "shampoo-100-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sampoo.webp"],
     price: 0,
   },
   {
@@ -4099,7 +4099,7 @@ const additionalCosmeticProducts = [
     slug: "shampoo-250-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sampoo.webp"],
     price: 0,
   },
   {
@@ -4108,7 +4108,7 @@ const additionalCosmeticProducts = [
     slug: "shampoo-500-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sampoo.webp"],
     price: 0,
   },
   {
@@ -4117,7 +4117,7 @@ const additionalCosmeticProducts = [
     slug: "conditioner-100-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/conditioner.webp"],
     price: 0,
   },
   {
@@ -4126,7 +4126,7 @@ const additionalCosmeticProducts = [
     slug: "conditioner-250-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/conditioner.webp"],
     price: 0,
   },
   {
@@ -4135,7 +4135,7 @@ const additionalCosmeticProducts = [
     slug: "conditioner-500-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/conditioner.webp"],
     price: 0,
   },
   {
@@ -4144,7 +4144,7 @@ const additionalCosmeticProducts = [
     slug: "moisturiser-deep-nurishing-200-ml",
     category: "cosmetics",
     description: "Enriched with Aloevera, Olive Oil, Vitamin-E.",
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/moisturiser.webp"],
     price: 0,
   },
   {
@@ -4153,7 +4153,7 @@ const additionalCosmeticProducts = [
     slug: "perfumes",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/perfumes.webp"],
     price: 0,
   },
   {
@@ -4162,7 +4162,7 @@ const additionalCosmeticProducts = [
     slug: "deodorants",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/deodorants.webp"],
     price: 0,
   },
   {
@@ -4171,7 +4171,7 @@ const additionalCosmeticProducts = [
     slug: "johnsons-baby-kit",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/johnsons.webp"],
     price: 0,
   },
   {
@@ -4180,7 +4180,7 @@ const additionalCosmeticProducts = [
     slug: "johnsons-baby-oil-50-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/johnsons.webp"],
     price: 0,
   },
   {
@@ -4189,7 +4189,7 @@ const additionalCosmeticProducts = [
     slug: "johnsons-baby-powder-100-gm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/johnsons.webp"],
     price: 0,
   },
   {
@@ -4198,7 +4198,7 @@ const additionalCosmeticProducts = [
     slug: "johnsons-baby-soap-75-gm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/johnsons.webp"],
     price: 0,
   },
   {
@@ -4207,7 +4207,7 @@ const additionalCosmeticProducts = [
     slug: "v-wash-veginal-wash-100-ml",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/v-wash.webp"],
     price: 0,
   },
   {
@@ -4216,7 +4216,7 @@ const additionalCosmeticProducts = [
     slug: "skin-face-powder",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/skin-face.webp"],
     price: 0,
   },
   {
@@ -4225,7 +4225,7 @@ const additionalCosmeticProducts = [
     slug: "lip-balm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/lip-balm.webp"],
     price: 0,
   },
   {
@@ -4234,7 +4234,7 @@ const additionalCosmeticProducts = [
     slug: "sunscream-uv-protect-cream",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sunscream.webp"],
     price: 0,
   },
   {
@@ -4243,7 +4243,7 @@ const additionalCosmeticProducts = [
     slug: "fairbact-skin-soap-75-gm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/fairbact.webp"],
     price: 0,
   },
   {
@@ -4252,7 +4252,7 @@ const additionalCosmeticProducts = [
     slug: "dove-soap-100-gm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/dove-soap.webp"],
     price: 0,
   },
   {
@@ -4261,7 +4261,7 @@ const additionalCosmeticProducts = [
     slug: "pears-soap-100-gm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/pears-soap.webp"],
     price: 0,
   },
   {
@@ -4270,7 +4270,7 @@ const additionalCosmeticProducts = [
     slug: "sensogel-f-toothpaste-100-gm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sensogel.webp"],
     price: 0,
   },
   {
@@ -4279,7 +4279,7 @@ const additionalCosmeticProducts = [
     slug: "sensodyne-toothpaste-75-gm",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/sensodyne.webp"],
     price: 0,
   },
   {
@@ -4288,7 +4288,7 @@ const additionalCosmeticProducts = [
     slug: "baby-wipes-1x72",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/baby-wipes.webp"],
     price: 0,
   },
   {
@@ -4297,7 +4297,7 @@ const additionalCosmeticProducts = [
     slug: "refreshing-wipes",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/refreshing-wipes.webp"],
     price: 0,
   },
   {
@@ -4306,7 +4306,7 @@ const additionalCosmeticProducts = [
     slug: "face-wipes",
     category: "cosmetics",
     description: genericProductDescription,
-    images: ["/Assets/no-img.jpg"],
+    images: ["/cosmetics/face-wipes.webp"],
     price: 0,
   },
 ];
