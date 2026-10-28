@@ -60,7 +60,7 @@ export default function Header() {
     },
     { name: "Nutraceutical product", href: "#" },
     { name: "Otc product", href: "#" },
-    { name: "Cosmetic product", href: "#" },
+    { name: "Cosmetic product", href: "/products?category=cosmetics" },
     { name: "Surgical Products", href: "/products?category=surgical" },
     {
       name: "Orthopaedics products",
@@ -139,7 +139,7 @@ export default function Header() {
                     onMouseEnter={() => setIsDropdownOpen(true)}
                     onMouseLeave={() => setIsDropdownOpen(false)}
                   >
-                    <button className="flex items-center text-gray-700 hover:text-[#0AA0DD] px-3 py-2 text-xs font-medium transition-colors duration-200">
+                    <button className="flex items-center uppercase text-gray-700 hover:text-[#0AA0DD] px-3 py-2 text-xs font-medium transition-colors duration-200">
                       {item.name}
                       <ChevronDown
                         size={16}
