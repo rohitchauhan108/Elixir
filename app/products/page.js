@@ -48,6 +48,8 @@ export default function ProductsPage() {
       ? "Ayurvedic & Herbal Products"
       : category === "cosmetics"
         ? "Cosmetic Products"
+      : category === "otc-product"
+        ? "OTC Products"
       : category === "medical-devices"
         ? "Medical Devices"
         : category === "orthopaedics"
@@ -157,13 +159,15 @@ export default function ProductsPage() {
               </div>
 
               {/* Product Info */}
-              <div className="p-4 flex flex-col justify-between h-72 pb-5">
+              <div className="p-4 flex flex-col justify-between h-[250px] pb-5">
                 <div>
                   <p className="text-sm text-[#B3CB02] font-semibold mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "cosmetics"
                         ? "Cosmetic Products"
+                      : product.category === "otc-product"
+                        ? "OTC Products"
                       : product.category === "medical-devices"
                         ? "Medical Devices"
                         : product.category === "orthopaedics"
@@ -217,9 +221,10 @@ export default function ProductsPage() {
                     {product.title}
                   </h3>
                   <p className="text-gray-600 mb-1">
-                    {product.description.length > 60
+                    {product.description}
+                    {/* .length > 60
                       ? product.description.substring(0, 60) + "..."
-                      : product.description}
+                      : product.description} */}
                   </p>
                 </div>
 

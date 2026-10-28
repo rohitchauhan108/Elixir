@@ -59,7 +59,7 @@ export default function Header() {
       href: "/products?category=ayurvedic",
     },
     { name: "Nutraceutical product", href: "#" },
-    { name: "Otc product", href: "#" },
+    { name: "OTC Products", href: "/products?category=otc-product" },
     { name: "Cosmetic product", href: "/products?category=cosmetics" },
     { name: "Surgical Products", href: "/products?category=surgical" },
     {
