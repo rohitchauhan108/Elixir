@@ -8,6 +8,38 @@ import { products } from "@/data/products";
 import { pharmaceuticalCategories } from "@/lib/productCategories";
 import Divider from "@/components/Divider";
 
+function getPaginationPages(currentPage, totalPages) {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, index) => index + 1);
+  }
+
+  if (currentPage <= 4) {
+    return [1, 2, 3, 4, 5, "...", totalPages];
+  }
+
+  if (currentPage >= totalPages - 3) {
+    return [
+      1,
+      "...",
+      totalPages - 4,
+      totalPages - 3,
+      totalPages - 2,
+      totalPages - 1,
+      totalPages,
+    ];
+  }
+
+  return [
+    1,
+    "...",
+    currentPage - 1,
+    currentPage,
+    currentPage + 1,
+    "...",
+    totalPages,
+  ];
+}
+
 export default function ProductsPage() {
   const searchParams = useSearchParams();
   const category = searchParams.get("category");
@@ -29,6 +61,7 @@ export default function ProductsPage() {
     remainingProducts > 0 &&
     remainingProducts < 3;
   const totalPages = pagesBeforeMerge - Number(mergeFinalPage);
+  const paginationPages = getPaginationPages(currentPage, totalPages);
 
   // Reset to page 1 when category changes
   useEffect(() => {
@@ -261,21 +294,63 @@ export default function ProductsPage() {
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="flex justify-center mt-10 space-x-2">
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-            <button
-              key={page}
-              onClick={() => setCurrentPage(page)}
-              className={`px-4 py-2 rounded ${
-                currentPage === page
-                  ? "bg-[#009136] text-white"
-                  : "bg-white text-[#009136] border border-[#009136]"
-              } hover:bg-[#B3CB02] hover:text-white transition`}
-            >
-              {page}
-            </button>
-          ))}
-        </div>
+        <nav
+          aria-label="Product pages"
+          className="mt-10 flex items-center justify-center gap-2"
+        >
+          <button
+            type="button"
+            onClick={() => setCurrentPage((page) => Math.max(1, page - 1))}
+            disabled={currentPage === 1}
+            className="rounded border border-[#009136] bg-white px-3 py-2 text-sm text-[#009136] transition hover:bg-[#B3CB02] hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            Previous
+          </button>
+
+          <span className="whitespace-nowrap text-sm text-gray-700 sm:hidden">
+            Page {currentPage} of {totalPages}
+          </span>
+
+          <div className="hidden items-center gap-2 sm:flex">
+            {paginationPages.map((page, index) =>
+              page === "..." ? (
+                <span
+                  key={`ellipsis-${index}`}
+                  aria-hidden="true"
+                  className="px-1 text-gray-600"
+                >
+                  ...
+                </span>
+              ) : (
+                <button
+                  key={page}
+                  type="button"
+                  onClick={() => setCurrentPage(page)}
+                  aria-current={currentPage === page ? "page" : undefined}
+                  aria-label={`Go to page ${page}`}
+                  className={`min-w-10 rounded px-3 py-2 text-sm transition ${
+                    currentPage === page
+                      ? "bg-[#009136] text-white"
+                      : "border border-[#009136] bg-white text-[#009136] hover:bg-[#B3CB02] hover:text-white"
+                  }`}
+                >
+                  {page}
+                </button>
+              ),
+            )}
+          </div>
+
+          <button
+            type="button"
+            onClick={() =>
+              setCurrentPage((page) => Math.min(totalPages, page + 1))
+            }
+            disabled={currentPage === totalPages}
+            className="rounded border border-[#009136] bg-white px-3 py-2 text-sm text-[#009136] transition hover:bg-[#B3CB02] hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            Next
+          </button>
+        </nav>
       )}
     </section>
   );
