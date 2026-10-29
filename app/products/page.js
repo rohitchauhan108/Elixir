@@ -46,6 +46,10 @@ export default function ProductsPage() {
   const title = category
     ? category === "ayurvedic"
       ? "Ayurvedic & Herbal Products"
+      : category === "nutraceutical"
+        ? "Nutraceutical Products"
+      : category === "anticold"
+        ? "Anticold"
       : category === "cosmetics"
         ? "Cosmetic Products"
       : category === "otc-product"
@@ -164,6 +168,10 @@ export default function ProductsPage() {
                   <p className="text-sm text-[#B3CB02] font-semibold mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
+                      : product.category === "nutraceutical"
+                        ? "Nutraceutical Products"
+                      : product.category === "anticold"
+                        ? "Anticold"
                       : product.category === "cosmetics"
                         ? "Cosmetic Products"
                       : product.category === "otc-product"
@@ -221,10 +229,9 @@ export default function ProductsPage() {
                     {product.title}
                   </h3>
                   <p className="text-gray-600 mb-1">
-                    {product.description}
-                    {/* .length > 60
+                    {product.description.length > 60
                       ? product.description.substring(0, 60) + "..."
-                      : product.description} */}
+                      : product.description}
                   </p>
                 </div>
 

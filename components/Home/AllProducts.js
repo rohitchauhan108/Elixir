@@ -89,6 +89,8 @@ export default function AllProducts() {
                   <p className="text-sm text-[#B3CB02] mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
+                      : product.category === "nutraceutical"
+                        ? "Nutraceutical Products"
                       : product.category === "cosmetics"
                         ? "Cosmetic Products"
                       : product.category === "medical-devices"
