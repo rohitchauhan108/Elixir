@@ -35,7 +35,7 @@ export default function Footer() {
     <footer id="contact" className="bg-white text-gray-700 border-t-2 relative">
       {/* Background Overlay Image */}
       <div
-        className="absolute bottom-10 right-0 w-40 h-40 bg-no-repeat bg-contain opacity-20 pointer-events-none"
+        className="absolute bottom-20 right-0 w-40 h-40 bg-no-repeat bg-contain opacity-20 pointer-events-none"
         style={{ backgroundImage: "url('/Assets/logos/elixir-logo-main.png')" }}
       ></div>
 
