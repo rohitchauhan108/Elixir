@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { products } from "@/data/products";
+import { pharmaceuticalCategories } from "@/lib/productCategories";
 import Divider from "@/components/Divider";
 
 export default function ProductsPage() {
@@ -158,7 +159,11 @@ export default function ProductsPage() {
                   src={product.images[0]}
                   alt={product.title}
                   fill
-                  className="object-content object-contain p-2 transition-transform duration-500 group-hover:scale-125"
+                  className={`${
+                    pharmaceuticalCategories.has(product.category)
+                      ? "object-cover p-2"
+                      : "object-contain p-2"
+                  } transition-transform duration-500 group-hover:scale-125`}
                 />
               </div>
 
