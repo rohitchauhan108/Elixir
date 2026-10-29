@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { X } from "lucide-react";
+import { pharmaceuticalCategories } from "@/lib/productCategories";
 
 // Import both slider components
 import AyurvedicProducts from "@/components/Home/AyurvedicProducts";
@@ -71,7 +72,11 @@ export default function ProductDetails({ product }) {
                 src={mainImage}
                 alt={product.title}
                 fill
-                className="object-contain transition duration-500 ease-in-out group-hover:scale-110"
+                className={`${
+                  pharmaceuticalCategories.has(product.category)
+                    ? "object-cover"
+                    : "object-contain"
+                } transition duration-500 ease-in-out group-hover:scale-110`}
               />
             </button>
           </div>
@@ -92,7 +97,11 @@ export default function ProductDetails({ product }) {
                   src={img}
                   alt={`${product.title} ${idx}`}
                   fill
-                  className="lg:object-cover object-contain"
+                  className={
+                    pharmaceuticalCategories.has(product.category)
+                      ? "object-cover"
+                      : "object-contain"
+                  }
                 />
               </div>
             ))}
