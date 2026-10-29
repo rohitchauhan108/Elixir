@@ -105,6 +105,10 @@ export default function ProductDetails({ product }) {
             <p className="text-sm font-semibold text-[#B3CB02] mb-4">
               {product.category === "ayurvedic"
                 ? "Ayurvedic & Herbal Products"
+                : product.category === "nutraceutical"
+                ? "Nutraceutical Products"
+                : product.category === "anticold"
+                ? "Anticold"
                 : product.category === "cosmetics"
                 ? "Cosmetic Products"
                 : product.category === "otc-product"
@@ -178,6 +182,10 @@ export default function ProductDetails({ product }) {
                   ← Back to{" "}
                   {product.category === "ayurvedic"
                     ? "Ayurvedic"
+                    : product.category === "nutraceutical"
+                    ? "Nutraceutical"
+                    : product.category === "anticold"
+                    ? "Anticold"
                     : product.category === "cosmetics"
                     ? "Cosmetic"
                     : product.category === "otc-product"

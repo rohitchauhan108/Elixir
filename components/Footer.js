@@ -24,6 +24,7 @@ export default function Footer() {
 
   const categories = [
     { name: "Ayurvedic & Herbal Products", href: "/products?category=ayurvedic" },
+    { name: "Nutraceutical Products", href: "/products?category=nutraceutical" },
     { name: "Medical Devices", href: "/products?category=medical-devices" },
     { name: "Orthopaedics Products", href: "/products?category=orthopaedics" },
     { name: "Surgical Products", href: "/products?category=surgical" },

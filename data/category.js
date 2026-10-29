@@ -6,6 +6,18 @@ export const categories = [
     buttonLink: "/products?category=ayurvedic",
   },
   {
+    title: "Nutraceutical Products",
+    slug: "nutraceutical",
+    img: "/Assets/no-img.jpg",
+    buttonLink: "/products?category=nutraceutical",
+  },
+  {
+    title: "Anticold",
+    slug: "anticold",
+    img: "/Assets/no-img.jpg",
+    buttonLink: "/products?category=anticold",
+  },
+  {
     title: "Cosmetic Products",
     slug: "cosmetics",
     img: "/Assets/product-img/Cosmetics.jpeg",

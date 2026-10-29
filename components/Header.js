@@ -58,7 +58,10 @@ export default function Header() {
       name: "Ayurvedic & Herbal Products",
       href: "/products?category=ayurvedic",
     },
-    { name: "Nutraceutical product", href: "#" },
+    {
+      name: "Nutraceutical product",
+      href: "/products?category=nutraceutical",
+    },
     { name: "OTC Products", href: "/products?category=otc-product" },
     { name: "Cosmetic product", href: "/products?category=cosmetics" },
     { name: "Surgical Products", href: "/products?category=surgical" },
@@ -163,22 +166,34 @@ export default function Header() {
                           Antidiabatics
                         </Link>
                         <Link
-                          href="/products?category=cardiovascular"
-                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
-                        >
-                          Cardio-Vascular
-                        </Link>
-                        <Link
-                          href="/products?category=anti-hyperlipidemic"
-                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
-                        >
-                          Anti-Hyperlipidemic
-                        </Link>
-                        <Link
                           href="/products?category=analgesics"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Analgesics
+                        </Link>
+                        <Link
+                          href="/products?category=antacid"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Antacid
+                        </Link>
+                        <Link
+                          href="/products?category=anticold"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Anticold
+                        </Link>
+                         <Link
+                          href="/products?category=ointment"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Ointment
+                        </Link>
+                        <Link
+                          href="/products?category=liquid-dry-syp"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Liquid/Dry Syp.
                         </Link>
                         <Link
                           href="/products?category=eye-ear-and-nasal-drops"
@@ -193,35 +208,35 @@ export default function Header() {
                           Injectable
                         </Link>
                         <Link
+                          href="/products?category=cardiovascular"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Cardio-Vascular
+                        </Link>
+                        <Link
+                          href="/products?category=anti-hyperlipidemic"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Anti-Hyperlipidemic
+                        </Link>
+                        
+                        
+                        
+                        <Link
                           href="/products?category=tablets"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]
                         </Link>
-                        <Link
-                          href="/products?category=antacid"
-                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
-                        >
-                          Antacid
-                        </Link>
+                        
                         <Link
                           href="/products?category=antimalarial"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Antimalarial
                         </Link>
-                        <Link
-                          href="/products?category=liquid-dry-syp"
-                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
-                        >
-                          Liquid/Dry Syp.
-                        </Link>
-                        <Link
-                          href="/products?category=ointment"
-                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
-                        >
-                          Ointment
-                        </Link>
+                        
+                       
                       </div>
                     )}
                   </div>
