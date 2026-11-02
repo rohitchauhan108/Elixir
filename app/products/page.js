@@ -201,9 +201,13 @@ export default function ProductsPage() {
               </div>
 
               {/* Product Info */}
-              <div className="p-4 flex flex-col justify-between h-[250px] pb-5">
+              <div className="p-4 flex flex-col justify-between h-[200px] pb-5">
                 <div>
-                  <p className="text-sm text-[#B3CB02] font-semibold mb-4">
+                  <p
+                    className={`text-sm text-[#B3CB02] font-semibold mb-4 ${
+                      category === "eye-ear-and-nasal-drops" ? "hidden" : ""
+                    }`}
+                  >
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "nutraceutical"
