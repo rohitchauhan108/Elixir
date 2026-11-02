@@ -201,7 +201,7 @@ export default function ProductsPage() {
               </div>
 
               {/* Product Info */}
-              <div className="p-4 flex flex-col justify-between h-[200px] pb-5">
+              <div className="p-4 flex flex-col justify-between h-[200px] mb-10 pb-5">
                 <div>
                   <p
                     className={`text-sm text-[#B3CB02] font-semibold mb-4 ${
@@ -281,7 +281,7 @@ export default function ProductsPage() {
                 <div className="flex justify-center">
                   <Link
                     href={`/products/${product.category}/${product.slug}`}
-                    className="inline-block w-[50%] px-4 py-2 bg-[#009136] text-white rounded-full hover:bg-[#B3CB02] transition text-center"
+                    className="inline-block w-[50%] mt-5 px-4 py-2 bg-[#009136] text-white rounded-full hover:bg-[#B3CB02] transition text-center"
                   >
                     View Product
                   </Link>
