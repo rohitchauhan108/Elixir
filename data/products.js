@@ -1386,7 +1386,7 @@ const productCatalog = [
     title: "RYLES TUBE",
     slug: "ryles-tube",
     category: "surgical",
-    description: "No. 10",
+    description: "",
     ingredient: "",
     images: ["/surgical-products/ryles.webp"],
     price: 0,
