@@ -184,10 +184,10 @@ export default function ProductsPage() {
           currentProducts.map((product) => (
             <div
               key={product.id}
-              className="group bg-white rounded-b-[30px] overflow-hidden shadow-white shadow-sm transition-all duration-500 hover:-translate-y-2 border-b-2 border-[#009136]"
+              className="group bg-white rounded-b-[30px] overflow-hidden shadow-white shadow-sm transition-all duration-500 hover:-translate-y-2 border-b-2 border-[#009136] flex flex-col h-full"
             >
               {/* Product Image */}
-              <div className="relative w-full h-[200px]">
+              <div className="relative w-full h-[200px] flex-shrink-0">
                 <Image
                   src={product.images[0]}
                   alt={product.title}
@@ -201,8 +201,8 @@ export default function ProductsPage() {
               </div>
 
               {/* Product Info */}
-              <div className="p-4 flex flex-col justify-between h-[200px] mb-10 pb-5">
-                <div>
+              <div className="p-4 flex flex-col flex-1 pb-8">
+                <div className="flex-1">
                   <p
                     className={`text-sm text-[#B3CB02] font-semibold mb-4 ${
                       category === "eye-ear-and-nasal-drops" ? "hidden" : ""
@@ -278,7 +278,7 @@ export default function ProductsPage() {
                 </div>
 
                 {/* View Product Button */}
-                <div className="flex justify-center">
+                <div className="flex justify-center mt-auto">
                   <Link
                     href={`/products/${product.category}/${product.slug}`}
                     className="inline-block w-[50%] mt-5 px-4 py-2 bg-[#009136] text-white rounded-full hover:bg-[#B3CB02] transition text-center"
