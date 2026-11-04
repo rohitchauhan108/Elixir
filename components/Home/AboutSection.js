@@ -23,7 +23,7 @@ export default function AboutSection() {
           {/* ✅ Text Content (mobile pe upar, desktop pe left) */}
           <div className="order-1 lg:order-1">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-              About Us
+              About Elixir Far LLP
             </h2>
 
             {/* Divider with Logo */}
@@ -33,8 +33,8 @@ export default function AboutSection() {
                 <Image
                   src="/Assets/logos/elixir-logo-main.png"
                   alt="Logo"
-                  width={28}
-                  height={28}
+                  width={100}
+                  height={50}
                   className="object-contain"
                 />
               </div>
