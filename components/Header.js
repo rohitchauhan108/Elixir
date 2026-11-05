@@ -18,6 +18,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isMedicalDropdownOpen, setIsMedicalDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setIsSticky(window.scrollY > 100);
@@ -142,7 +143,7 @@ export default function Header() {
                     onMouseEnter={() => setIsDropdownOpen(true)}
                     onMouseLeave={() => setIsDropdownOpen(false)}
                   >
-                    <button className="flex items-center uppercase text-gray-700 hover:text-[#0AA0DD] px-3 py-2 text-xs font-medium transition-colors duration-200">
+                    <button className="flex items-center uppercase text-red-700 hover:text-[#0AA0DD] px-3 py-2 text-xs font-medium transition-colors duration-200">
                       {item.name}
                       <ChevronDown
                         size={16}
@@ -241,13 +242,48 @@ export default function Header() {
                     )}
                   </div>
                 ) : (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="text-gray-700 uppercase hover:text-[#0AA0DD] px-3 py-2 text-xs text-center font-medium transition-colors duration-200"
-                  >
-                    {item.name}
-                  </a>
+                  item.name === "Medical devices" ? (
+                    <div key={item.name} className="relative group">
+                      <Link
+                        href={item.href}
+                        className="flex items-center text-red-700 uppercase hover:text-red-700 px-3 py-2 text-xs text-center font-medium transition-colors duration-200"
+                      >
+                        {item.name}
+                        <ChevronDown
+                          size={14}
+                          className="ml-1 transition-transform group-hover:rotate-180"
+                        />
+                      </Link>
+                      <div className="absolute left-0 top-full hidden w-44 rounded-md border bg-white py-2 shadow-lg group-hover:block group-focus-within:block z-50">
+                        <Link
+                          href="/products?category=test-card"
+                          className="block px-3 py-2 text-sm text-red-700 hover:bg-gray-100 hover:text-red-700"
+                        >
+                          Rapid Test Card
+                        </Link>
+                        <Link
+                          href="/products?category=test-card"
+                          className="block px-3 py-2 text-sm text-red-700 hover:bg-gray-100 hover:text-red-700"
+                        >
+                          Biological Reagents
+                        </Link>
+                        <Link
+                          href="/products?category=test-card"
+                          className="block px-3 py-2 text-sm text-red-700 hover:bg-gray-100 hover:text-red-700"
+                        >
+                          OT Intruments & Kit
+                        </Link>
+                      </div>
+                    </div>
+                  ) : (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="text-red-700 uppercase hover:text-[#0AA0DD] px-3 py-2 text-xs text-center font-medium transition-colors duration-200"
+                    >
+                      {item.name}
+                    </a>
+                  )
                 ),
               )}
             </nav>
@@ -287,7 +323,7 @@ export default function Header() {
                   <div key={item.name} className="w-full">
                     <button
                       onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                      className="w-full text-left text-gray-700 hover:text-[#0AA0DD] py-2 text-base font-medium flex justify-between items-center"
+                      className="w-full text-left text-red-700 hover:text-[#0AA0DD] py-2 text-base font-medium flex justify-between items-center"
                     >
                       {item.name}
                       <ChevronDown
@@ -305,12 +341,40 @@ export default function Header() {
                           <Link
                             key={med.name}
                             href={med.href}
-                            className="text-gray-600 hover:text-[#0AA0DD] py-1 text-sm"
+                            className="py-1 text-sm text-red-700 hover:text-red-700"
                             onClick={() => setIsMenuOpen(false)}
                           >
                             {med.name}
                           </Link>
                         ))}
+                      </div>
+                    )}
+                  </div>
+                ) : item.name === "Medical devices" ? (
+                  <div key={item.name} className="w-full">
+                    <button
+                      onClick={() =>
+                        setIsMedicalDropdownOpen(!isMedicalDropdownOpen)
+                      }
+                      className="w-full text-left text-red-700 hover:text-red-700 py-2 text-base font-medium flex justify-between items-center"
+                    >
+                      {item.name}
+                      <ChevronDown
+                        size={18}
+                        className={`transition-transform ${
+                          isMedicalDropdownOpen ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
+                    {isMedicalDropdownOpen && (
+                      <div className="flex flex-col pl-4 space-y-1 mt-1">
+                        <Link
+                          href="/products?category=test-card"
+                          className="text-gray-600 hover:text-[#0AA0DD] py-1 text-sm"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          Rapid Test Card
+                        </Link>
                       </div>
                     )}
                   </div>

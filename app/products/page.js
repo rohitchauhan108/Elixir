@@ -204,7 +204,7 @@ export default function ProductsPage() {
               <div className="p-4 flex flex-col flex-1 pb-8">
                 <div className="flex-1">
                   <p
-                    className={`text-sm text-[#B3CB02] font-semibold mb-4 ${
+                    className={`text-lg text-blue-600 font-semibold mb-4 ${
                       category === "eye-ear-and-nasal-drops" ? "hidden" : ""
                     }`}
                   >
@@ -267,7 +267,13 @@ export default function ProductsPage() {
                                                         )}
                   </p>
 
-                  <h3 className="text-xl font-semibold mb-2">
+                  <h3
+                    className={`mb-2 text-xl font-semibold ${
+                      product.category === "eye-ear-and-nasal-drops"
+                        ? "text-red-700"
+                        : ""
+                    }`}
+                  >
                     {product.title}
                   </h3>
                   <p className="text-gray-600 mb-1">
