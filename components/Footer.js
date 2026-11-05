@@ -12,6 +12,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -50,11 +51,11 @@ export default function Footer() {
                 <img
                   src="/Assets/logos/elixir-logo-main.png"
                   alt="Logo"
-                  className="h-[100px] w-auto cursor-pointer"
+                  className="h-[150px] w-auto cursor-pointer"
                 />
               </Link>
             </div>
-            <p className="text-gray-700 leading-relaxed text-sm text-justify sm:text-left">
+            <p className="text-red-700 leading-relaxed text-[15px] text-justify sm:text-left">
               Elixir Far LLP offers trusted medical solutions ensuring health,
               safety, and care.
             </p>
@@ -64,26 +65,26 @@ export default function Footer() {
                 href="#"
                 className="bg-[#0AA0DD] text-white p-2 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
               >
-                <Facebook size={16} />
+                <Facebook size={25} />
               </a>
               <a
                 href="#"
                 className="bg-[#009136] text-white p-2 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
               >
-                <Instagram size={16} />
+                <Instagram size={25} />
               </a>
               <a
                 href="#"
                 className="bg-[#B3CB02] text-white p-2 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
               >
-                <Youtube size={16} />
+                <Youtube size={25} />
               </a>
             </div>
           </div>
 
           {/* Useful Links */}
           <div className="space-y-4 text-left">
-            <h4 className="text-2xl font-semibold">Useful Links</h4>
+            <h4 className="text-2xl font-semibold text-red-700">Useful Links</h4>
             <div className="grid grid-cols-1 gap-3">
               {usefulLinks.map((link, index) =>
                 link.name === "Product Category" ? (
@@ -131,7 +132,7 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div className="space-y-4 text-left md:col-span-2">
-            <h4 className="text-2xl font-semibold">Contact Information</h4>
+            <h4 className="text-2xl font-semibold text-red-700">Contact Information</h4>
             <div className="grid grid-cols-1 gap-x-6 gap-y-5 sm:grid-cols-2">
               <div className="space-y-5">
                 <div className="flex items-start gap-3">
@@ -148,7 +149,7 @@ export default function Footer() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <MessageCircle size={18} className="mt-0.5 text-[#009136]" />
+                  <FaWhatsapp size={18} className="mt-0.5 text-[#009136]" />
                   <div className="space-y-2">
                     <div>
                       <p className="font-medium text-gray-800">WhatsApp — Guyana</p>
@@ -199,7 +200,7 @@ export default function Footer() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <MapPin size={18} className="mt-1 text-[#009136]" />
+                  <MapPin size={50} className="mt-1 text-[#009136]" />
                   <div>
                     <p className="font-medium text-gray-800">Visit Us</p>
                     <a
