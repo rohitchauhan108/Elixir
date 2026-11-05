@@ -262,7 +262,7 @@ export default function Header() {
                           Rapid Test Card
                         </Link>
                         <Link
-                          href="/products?category=test-card"
+                          href="/products?category=biological-reagents"
                           className="block px-3 py-2 text-sm text-red-700 hover:bg-gray-100 hover:text-red-700"
                         >
                           Biological Reagents
@@ -374,6 +374,13 @@ export default function Header() {
                           onClick={() => setIsMenuOpen(false)}
                         >
                           Rapid Test Card
+                        </Link>
+                        <Link
+                          href="/products?category=biological-reagents"
+                          className="text-gray-600 hover:text-[#0AA0DD] py-1 text-sm"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          Biological Reagents
                         </Link>
                       </div>
                     )}

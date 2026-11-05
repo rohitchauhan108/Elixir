@@ -7,7 +7,7 @@ export default function ContactHero() {
     <section className="relative w-full h-[50vh] md:h-[60vh] flex items-center justify-center text-center">
       {/* Background Image */}
       <Image
-        src="/Assets/product-img/nutra.jpeg" 
+        src="/Assets/contact.webp" 
         alt="Background"
         fill
         priority
