@@ -228,7 +228,7 @@ export default function ProductsPage() {
                                   : product.category === "surgical"
                                     ? "Surgical Products"
                                     : product.category === "test-card"
-                                      ? product.title.includes("TEST STRIP")
+                                      ? product.title.includes("STRIP")
                                         ? "Rapid Test Strip"
                                         : "Rapid Test Card"
                                       : product.category === "biological-reagents"

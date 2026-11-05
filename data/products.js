@@ -525,7 +525,7 @@ const productCatalog = [
   },
   {
     id: "60",
-    title: "HEMOGLOBIN (50 STRIP/ BOX)",
+    title: "HEMOGLOBIN STRIP (50 STRIP/ BOX)",
     slug: "hemoglobin-50-strip-box",
     category: "test-card",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
@@ -535,7 +535,7 @@ const productCatalog = [
   },
   {
     id: "61",
-    title: "URINALYSIS STRIP (10 TEST/ BOX)",
+    title: " URINE ANALYSIS STRIP (10 TEST/ BOX)",
     slug: "urinalysis-strip-10-test-box",
     category: "test-card",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
