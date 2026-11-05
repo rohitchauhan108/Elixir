@@ -201,13 +201,6 @@ export default function ProductsPage() {
                       : "object-contain p-2"
                   } transition-transform duration-500 group-hover:scale-125`}
                 />
-                <Image
-                  src="/logo.webp"
-                  alt="Elixir Far LLP logo"
-                  width={100}
-                  height={100}
-                  className="absolute right-3 top-3 z-10 h-20 w-20 object-contain"
-                />
               </div>
 
               {/* Product Info */}
