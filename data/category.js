@@ -42,10 +42,16 @@ export const categories = [
     buttonLink: "/products?category=surgical",
   },
   {
-    title: "Test Cards And Test Strips",
+    title: "Rapid Test Cards",
     slug: "test-card",
     img: "/Assets/no-img.jpg",
     buttonLink: "/products?category=test-card",
+  },
+  {
+    title: "Biological Reagents",
+    slug: "biological-reagents",
+    img: "/Assets/no-img.jpg",
+    buttonLink: "/products?category=biological-reagents",
   },
   {
     title: "Anti-Hyperlipidemic",

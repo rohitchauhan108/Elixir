@@ -7,7 +7,7 @@ export default function AboutHero() {
     <section className="relative w-full h-[60vh] md:h-[70vh] flex items-center justify-center text-center">
       {/* Background Image */}
       <Image
-        src="/Assets/product-img/Apis.jpeg"
+        src="/Assets/about.webp"
         alt="Background"
         fill
         className="object-cover"
@@ -20,7 +20,7 @@ export default function AboutHero() {
       {/* Heading Content */}
       <div className="relative z-10 px-4">
         <h1 className="text-white text-3xl md:text-5xl font-bold">
-          Empowering Health Through Technology and Tradition
+          Empowering Health Through <br/> Technology and Tradition
         </h1>
         <p className="text-white text-base md:text-lg mt-3 opacity-90">
           Delivering Health, Naturally and Scientifically

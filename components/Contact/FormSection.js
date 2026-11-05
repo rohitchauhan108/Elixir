@@ -1,80 +1,140 @@
 "use client";
 
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import ContactMap from "./ContactMap";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+
+const contactCards = [
+  {
+    id: "call-us",
+    title: "Call Us",
+    values: [{ text: "+91 9837771244", href: "tel:+919837771244" }],
+    Icon: FaPhoneAlt,
+  },
+  {
+    id: "wa-guyana",
+    title: "WhatsApp",
+    values: [{ text: "+5927172566 [Guyana]", href: "https://wa.me/5927172566" }],
+    Icon: FaWhatsapp,
+  },
+  {
+    id: "wa-liberia",
+    title: "WhatsApp",
+    values: [
+      { text: "0770-762300 [Liberia]", href: "https://wa.me/231770762300" },
+      { text: "0774-274647 [Liberia]", href: "https://wa.me/231774274647" },
+    ],
+    Icon: FaWhatsapp,
+  },
+  {
+    id: "email-us",
+    title: "Email Us",
+    values: [{ text: "elixirfar24@gmail.com", href: "mailto:elixirfar24@gmail.com" }],
+    Icon: Mail,
+  },
+  {
+    id: "visit-us",
+    title: "Visit Us",
+    values: [
+      {
+        text: "C-109, First Floor, Block-C, Parsvnath Eleganza Mall, Rajpur Road, Dehradun-248001, Uttarakhand",
+        href: "https://maps.google.com/?q=Parsvnath+Eleganza+Mall+Dehradun",
+      },
+    ],
+    Icon: MapPin,
+  },
+];
+
+function ContactCard({ card }) {
+  const { id, title, values, Icon } = card;
+
+  return (
+    <div className="flex min-h-36 items-start gap-4 rounded-xl border border-gray-100 bg-white p-5 shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+      <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-red-100 text-red-700">
+        <Icon size={24} aria-hidden="true" />
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block text-lg font-semibold text-red-700">
+          {title}
+        </span>
+        <span className="mt-2 block space-y-1 text-sm leading-relaxed text-gray-600">
+          {values.map((value, index) =>
+            value.href ? (
+              <a
+                key={`${id}-${index}`}
+                href={value.href}
+                target={value.href.startsWith("http") ? "_blank" : undefined}
+                rel={value.href.startsWith("http") ? "noreferrer" : undefined}
+                className="block break-words hover:text-[#009136] hover:underline"
+              >
+                {value.text}
+              </a>
+            ) : (
+              <span key={`${id}-${index}`} className="block break-words">
+                {value.text}
+              </span>
+            ),
+          )}
+        </span>
+      </span>
+    </div>
+  );
+}
 
 export default function FormSection() {
   return (
-    <section className="w-full bg-gray-100 py-16 px-4">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
-        {/* Left Side: Contact Info */}
-        <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col justify-center">
-          <h2 className="text-3xl font-bold text-gray-600 mb-8 text-center md:text-left">
-            Get in Touch
-          </h2>
-
-          <div className="space-y-6">
-            <div className="flex items-center space-x-4">
-              <Phone size={24} className="text-[#009136]" />
-              <p className="text-gray-700 text-lg">+1 (555) 123-4567</p>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <Mail size={24} className="text-[#009136]" />
-              <p className="text-gray-700 text-lg">elixirfar24@gmail.com</p>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <MapPin size={24} className="text-[#009136] mt-1" />
-              <p className="text-gray-700 text-lg">
-                C-109, First Floor, Block-C,
-                <br />
-                Parsevnath Eleganza Mall,
-                <br />
-                Rajpur Road Dehradun-248001(Uttarakhand)
-              </p>
-            </div>
-          </div>
+    <section className="w-full bg-gray-50 px-4 py-12 sm:py-16">
+      <div className="mx-auto max-w-7xl">
+        <div className="mb-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {contactCards.slice(0, 3).map((card) => (
+            <ContactCard key={card.id} card={card} />
+          ))}
+        </div>
+        <div className="mb-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
+          {contactCards.slice(3).map((card) => (
+            <ContactCard key={card.id} card={card} />
+          ))}
         </div>
 
-        {/* Right Side: Contact Form */}
-        <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col justify-center">
-          <form className="space-y-4">
-            {/* Name Fields */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 items-stretch gap-8 lg:grid-cols-2">
+          <ContactMap />
+
+          <div className="rounded-xl bg-white p-6 shadow-lg sm:p-8">
+            <h2 className="mb-6 text-2xl font-bold text-gray-800 sm:text-3xl">
+              Send Us a Message
+            </h2>
+            <form className="space-y-4">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  className="w-full rounded-md border border-gray-300 p-3 focus:border-[#009136] focus:outline-none"
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  className="w-full rounded-md border border-gray-300 p-3 focus:border-[#009136] focus:outline-none"
+                />
+              </div>
               <input
-                type="text"
-                placeholder="First Name"
-                className="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:border-[#009136]"
+                type="email"
+                placeholder="Email"
+                className="w-full rounded-md border border-gray-300 p-3 focus:border-[#009136] focus:outline-none"
               />
-              <input
-                type="text"
-                placeholder="Last Name"
-                className="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:border-[#009136]"
+              <textarea
+                rows={6}
+                placeholder="Your Message"
+                className="w-full rounded-md border border-gray-300 p-3 focus:border-[#009136] focus:outline-none"
               />
-            </div>
-
-            {/* Email */}
-            <input
-              type="email"
-              placeholder="Email"
-              className="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:border-[#009136]"
-            />
-
-            {/* Message */}
-            <textarea
-              rows="4"
-              placeholder="Your Message"
-              className="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:border-[#009136]"
-            ></textarea>
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              className="w-full bg-[#009136] text-white font-semibold py-3 rounded-md transform transition-transform duration-200 hover:scale-95"
-            >
-              Submit
-            </button>
-          </form>
+              <button
+                type="submit"
+                className="w-full rounded-md bg-[#009136] py-3 font-semibold text-white transition-transform duration-200 hover:scale-[0.98] hover:bg-[#007d2c]"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>

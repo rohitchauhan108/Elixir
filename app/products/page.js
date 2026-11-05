@@ -52,14 +52,10 @@ export default function ProductsPage() {
   // Pagination setup
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12;
-  const pagesBeforeMerge = Math.ceil(
-    filteredProducts.length / productsPerPage,
-  );
+  const pagesBeforeMerge = Math.ceil(filteredProducts.length / productsPerPage);
   const remainingProducts = filteredProducts.length % productsPerPage;
   const mergeFinalPage =
-    pagesBeforeMerge > 1 &&
-    remainingProducts > 0 &&
-    remainingProducts < 3;
+    pagesBeforeMerge > 1 && remainingProducts > 0 && remainingProducts < 3;
   const totalPages = pagesBeforeMerge - Number(mergeFinalPage);
   const paginationPages = getPaginationPages(currentPage, totalPages);
 
@@ -82,60 +78,67 @@ export default function ProductsPage() {
       ? "Ayurvedic & Herbal Products"
       : category === "nutraceutical"
         ? "Nutraceutical Products"
-      : category === "anticold"
-        ? "Anticold"
-      : category === "cosmetics"
-        ? "Cosmetic Products"
-      : category === "otc-product"
-        ? "OTC Products"
-      : category === "medical-devices"
-        ? "Medical Devices"
-        : category === "orthopaedics"
-          ? "Orthopaedics Products"
-        : category === "test-card"
-          ? "Test Cards And Test Strips"
-          : category === "surgical"
-            ? "Surgical Products"
-            : category === "antibiotics"
-              ? "Antibiotics"
-              : category === "antidiabetic"
-                ? "Anti Diabetic"
-                : category === "cardiovascular"
-                  ? "Cardio Vascular"
-                  : category === "anti-hyperlipidemic"
-                    ? "Anti-Hyperlipidemic"
-                  : category === "analgesics"
-                    ? "Analgesics"
-                    : category === "eye-ear-and-nasal-drops"
-                      ? "Eye/Ear & Nasal Drops"
-                      : category === "injectable"
-                          ? "Injectable"
-                          : category === "tablets"
-                            ? "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]"
-                            : category === "antacid"
-                              ? "Antacid"
-                              : category === "antimalarial"
-                                ? "Antimalarial"
-                                : category === "liquid-dry-syp"
-                                  ? "Liquid/Dry Syp"
-                                  : category === "ointment"
-                                    ? "Ointment"
-                                    : category === "oncology-capsules"
-                                      ? "Oncology Capsules"
-                                      : category === "oncology-injections"
-                                        ? "Oncology Injections"
-                                        : category === "veterinary-bolus"
-                                          ? "Veterinary Bolus"
-                                          : category === "veterinary-injection"
-                                            ? "Veterinary Injection"
-                                            : category === "veterinary-liquid"
-                                              ? "Veterinary Liquid"
-                                              : category === "veterinary-powder"
-                                                ? "Veterinary Powder"
+        : category === "anticold"
+          ? "Anticold"
+          : category === "cosmetics"
+            ? "Cosmetic Products"
+            : category === "otc-product"
+              ? "OTC Products"
+              : category === "medical-devices"
+                ? "Medical Devices"
+                : category === "orthopaedics"
+                  ? "Orthopaedics Products"
+                  : category === "test-card"
+                    ? "Rapid Test Cards"
+                  : category === "biological-reagents"
+                    ? "Biological Reagents"
+                    : category === "surgical"
+                      ? "Surgical Products"
+                      : category === "antibiotics"
+                        ? "Antibiotics"
+                        : category === "antidiabetic"
+                          ? "Anti Diabetic"
+                          : category === "cardiovascular"
+                            ? "Cardio Vascular"
+                            : category === "anti-hyperlipidemic"
+                              ? "Anti-Hyperlipidemic"
+                              : category === "analgesics"
+                                ? "Analgesics"
+                                : category === "eye-ear-and-nasal-drops"
+                                  ? "Eye/Ear & Nasal Drops"
+                                  : category === "injectable"
+                                    ? "Injectable"
+                                    : category === "tablets"
+                                      ? "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]"
+                                      : category === "antacid"
+                                        ? "Antacid"
+                                        : category === "antimalarial"
+                                          ? "Antimalarial"
+                                          : category === "liquid-dry-syp"
+                                            ? "Liquid/Dry Syp"
+                                            : category === "ointment"
+                                              ? "Ointment"
+                                              : category === "oncology-capsules"
+                                                ? "Oncology Capsules"
                                                 : category ===
-                                                    "veterinary-tablet"
-                                                  ? "Veterinary Tablet"
-                                                  : "All Products"
+                                                    "oncology-injections"
+                                                  ? "Oncology Injections"
+                                                  : category ===
+                                                      "veterinary-bolus"
+                                                    ? "Veterinary Bolus"
+                                                    : category ===
+                                                        "veterinary-injection"
+                                                      ? "Veterinary Injection"
+                                                      : category ===
+                                                          "veterinary-liquid"
+                                                        ? "Veterinary Liquid"
+                                                        : category ===
+                                                            "veterinary-powder"
+                                                          ? "Veterinary Powder"
+                                                          : category ===
+                                                              "veterinary-tablet"
+                                                            ? "Veterinary Tablet"
+                                                            : "All Products"
     : "All Products";
 
   return (
@@ -198,6 +201,13 @@ export default function ProductsPage() {
                       : "object-contain p-2"
                   } transition-transform duration-500 group-hover:scale-125`}
                 />
+                <Image
+                  src="/logo.webp"
+                  alt="Elixir Far LLP logo"
+                  width={100}
+                  height={100}
+                  className="absolute right-3 top-3 z-10 h-20 w-20 object-contain"
+                />
               </div>
 
               {/* Product Info */}
@@ -212,59 +222,67 @@ export default function ProductsPage() {
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "nutraceutical"
                         ? "Nutraceutical Products"
-                      : product.category === "anticold"
-                        ? "Anticold"
-                      : product.category === "cosmetics"
-                        ? "Cosmetic Products"
-                      : product.category === "otc-product"
-                        ? "OTC Products"
-                      : product.category === "medical-devices"
-                        ? "Medical Devices"
-                        : product.category === "orthopaedics"
-                          ? "Orthopaedics Products"
-                        : product.category === "surgical"
-                          ? "Surgical Products"
-                          : product.category === "test-card"
-                            ? "Test Cards And Test Strips"
-                            : product.category === "eye-ear-and-nasal-drops"
-                              ? "Eye/Ear & Nasal Drops"
-                              : product.category === "anti-hyperlipidemic"
-                                  ? "Anti-Hyperlipidemic"
-                                : product.category === "tablets"
-                                  ? "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]"
-                                  : product.category === "antacid"
-                                    ? "Antacid"
-                                    : product.category === "antimalarial"
-                                      ? "Antimalarial"
-                                      : product.category === "liquid-dry-syp"
-                                        ? "Liquid/Dry Syp"
+                        : product.category === "anticold"
+                          ? "Anticold"
+                          : product.category === "cosmetics"
+                            ? "Cosmetic Products"
+                            : product.category === "otc-product"
+                              ? "OTC Products"
+                              : product.category === "medical-devices"
+                                ? "Medical Devices"
+                                : product.category === "orthopaedics"
+                                  ? "Orthopaedics Products"
+                                  : product.category === "surgical"
+                                    ? "Surgical Products"
+                                    : product.category === "test-card"
+                                      ? product.title.includes("TEST STRIP")
+                                        ? "Rapid Test Strip"
+                                        : "Rapid Test Card"
+                                      : product.category === "biological-reagents"
+                                        ? "Biological Reagents"
+                                      : product.category ===
+                                          "eye-ear-and-nasal-drops"
+                                        ? "Eye/Ear & Nasal Drops"
                                         : product.category ===
-                                            "oncology-capsules"
-                                          ? "Oncology Capsules"
-                                          : product.category ===
-                                              "oncology-injections"
-                                            ? "Oncology Injections"
-                                            : product.category ===
-                                                "veterinary-bolus"
-                                              ? "Veterinary Bolus"
+                                            "anti-hyperlipidemic"
+                                          ? "Anti-Hyperlipidemic"
+                                          : product.category === "tablets"
+                                            ? "Phosphodiesterase-5 Inhibitor [Erectile Dysfunction]"
+                                            : product.category === "antacid"
+                                              ? "Antacid"
                                               : product.category ===
-                                                  "veterinary-injection"
-                                                ? "Veterinary Injection"
+                                                  "antimalarial"
+                                                ? "Antimalarial"
                                                 : product.category ===
-                                                    "veterinary-liquid"
-                                                  ? "Veterinary Liquid"
+                                                    "liquid-dry-syp"
+                                                  ? "Liquid/Dry Syp"
                                                   : product.category ===
-                                                      "veterinary-powder"
-                                                    ? "Veterinary Powder"
+                                                      "oncology-capsules"
+                                                    ? "Oncology Capsules"
                                                     : product.category ===
-                                                        "veterinary-tablet"
-                                                      ? "Veterinary Tablet"
-                                                      : product.category
-                                                          .charAt(0)
-                                                          .toUpperCase() +
-                                                        product.category.slice(
-                                                          1,
-                                                        )}
+                                                        "oncology-injections"
+                                                      ? "Oncology Injections"
+                                                      : product.category ===
+                                                          "veterinary-bolus"
+                                                        ? "Veterinary Bolus"
+                                                        : product.category ===
+                                                            "veterinary-injection"
+                                                          ? "Veterinary Injection"
+                                                          : product.category ===
+                                                              "veterinary-liquid"
+                                                            ? "Veterinary Liquid"
+                                                            : product.category ===
+                                                                "veterinary-powder"
+                                                              ? "Veterinary Powder"
+                                                              : product.category ===
+                                                                  "veterinary-tablet"
+                                                                ? "Veterinary Tablet"
+                                                                : product.category
+                                                                    .charAt(0)
+                                                                    .toUpperCase() +
+                                                                  product.category.slice(
+                                                                    1,
+                                                                  )}
                   </p>
 
                   <h3
