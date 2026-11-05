@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import ContactMap from "./ContactMap";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -9,13 +9,19 @@ const contactCards = [
   {
     id: "call-us",
     title: "Call Us",
-    values: [{ text: "+91 9837771244", href: "tel:+919837771244" }],
+    values: [
+      { text: "+91 9837771244", href: "tel:+919837771244" },
+      { text: "+91 9837028249", href: "tel:+919837028249" },
+    ],
     Icon: FaPhoneAlt,
   },
   {
     id: "wa-guyana",
     title: "WhatsApp",
-    values: [{ text: "+5927172566 [Guyana]", href: "https://wa.me/5927172566" }],
+    values: [
+      { text: "+592 717 2566 [Guyana]", href: "https://wa.me/5927172566" },
+      { text: "+592 683 7971 [Guyana]", href: "https://wa.me/5926837971" },
+    ],
     Icon: FaWhatsapp,
   },
   {

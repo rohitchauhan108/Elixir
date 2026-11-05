@@ -145,6 +145,12 @@ export default function Footer() {
                     >
                       +91 9837771244
                     </a>
+                    <a
+                      href="tel:+919837028249"
+                      className="block text-gray-700 hover:text-[#009136]"
+                    >
+                      +91 9837028249
+                    </a>
                   </div>
                 </div>
 
@@ -160,6 +166,14 @@ export default function Footer() {
                         className="text-gray-700 hover:text-[#009136]"
                       >
                         +592 717 2566
+                      </a>
+                      <a
+                        href="https://wa.me/5926837971"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="block text-gray-700 hover:text-[#009136]"
+                      >
+                        +592 683 7971
                       </a>
                     </div>
                     <div>
